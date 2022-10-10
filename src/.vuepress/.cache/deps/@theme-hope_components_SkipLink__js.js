@@ -12,7 +12,7 @@ import "./chunk-XYQ66V4O.js";
 import "./chunk-5E3NKPRU.js";
 
 // node_modules/vuepress-theme-hope/lib/client/components/SkipLink.js
-import "/Users/wangchenbing/Desktop/vue_blogs/My_blogs/node_modules/vuepress-theme-hope/lib/client/styles/skip-link.scss";
+import "C:/Users/\u738B\u6668\u51B0/Desktop/My_blogs_beta/node_modules/vuepress-theme-hope/lib/client/styles/skip-link.scss";
 var SkipLink_default = defineComponent({
   name: "SkipLink",
   props: {

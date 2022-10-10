@@ -1,0 +1,402 @@
+---
+title: js封装工具
+date: 2022-08-04
+tags:
+ - JS
+---
+
+## 保留小数点  
+> 这里为啥不用toFixed(n) 呢， 因为toFixed默认会四舍五入 不知道大家发现了木有 所以这里找到了一个新方法 推荐一下
+
+```javaScript
+function toFixed(n, fixed) {
+    return ~~(Math.pow(10, fixed) * n) / Math.pow(10, fixed)
+}
+```
+
+## JS滚动屏幕到顶端的几种方法
+
+- 与带id的元素绑定使用
+- document.documentElement.scrollTop = 0 / document.body.scrollTop = 0
+- scrollTo(0,0) 一般用于相对于整个页面来说
+- scrollBy(x,y) 一般用于相当于当前元素的滚动 ，可以传入当前元素相对于顶端的值，即document.documentElement.scrollTop
+- scrollIntoView()和要跳转的元素绑定，使元素进入视口
+
+> 获取滚动条具体位置,切换页面时保存之前滚动记录
+::: details 点击查看代码
+```jsx
+const Welcome = () => {
+
+  let a = []
+  const func = (num) => {
+    for (let i = 1; i <= num; i++) {
+      a.push(i)
+    }
+  }
+  func(1000)
+
+  const scrollChange = () => {
+    //获取滚动了多少距离
+    const ScrollTop = document.getElementById('overbox').scrollTop
+    console.log(ScrollTop);
+    //本地保存滚动距离
+    sessionStorage.setItem('overboxheigth', ScrollTop)
+  }
+  //监听
+  useEffect(() => {
+    //获取上一次滚动的位置
+    document.getElementById('overbox').scrollTop = sessionStorage.getItem('overboxheigth');
+    //监听滚动事件
+    window.addEventListener('scroll', scrollChange, true)
+    scrollChange()
+    //关闭时取消监听滚动事件
+    return () => {
+      window.removeEventListener('scroll', scrollChange, false)
+    }
+  }, [])
+
+  //回滚到顶部
+  const btngun = () => {
+    var timer = setInterval(function () {
+      let osTop = document.getElementById('overbox').scrollTop || document.body.scrollTop;
+      let ispeed = Math.floor(-osTop / 5);
+      document.getElementById('overbox').scrollTop = document.body.scrollTop = osTop + ispeed;
+      this.isTop = true;
+      //当到达顶部时清除定时器
+      if (osTop === 0) {
+        clearInterval(timer);
+      }
+    }, 30)
+  }
+
+  return (
+    <PageContainer >
+      <button onClick={btngun}>滚到顶部</button>
+      {/* 设置大小 */}
+      <div style={{ overflowY: 'auto', height: document.body.clientHeight - 130 }} id='overbox'>
+        <ul>
+          {a.map(item => <li key={item}>{item}</li>)}
+        </ul>
+      </div>
+    </PageContainer>);
+}
+```
+:::
+## 过滤对象中为空的属性
+```js
+/**
+ * 过滤对象中为空的属性
+ * @param obj
+ * @returns {*}
+ */
+
+function filterObj(obj) {
+  if (!(typeof obj == 'object')) {
+    return;
+  }
+
+  for ( var key in obj) {
+    if (obj.hasOwnProperty(key)
+      && (obj[key] == null || obj[key] == undefined || obj[key] === '')) {
+      delete obj[key];
+    }
+  }
+  return obj;
+}
+
+```
+
+## 检测对象是否为空 
+```js
+  const isEmpty = obj => Reflect.ownKeys(obj).length === 0 && obj.constructor === Object;
+  isEmpty({}) // true
+  isEmpty({a:"not empty"}) //false
+```
+## 反转字符串 
+
+```js 
+  const reverse = str => str.split('').reverse().join('');
+  reverse('this is reverse');// esrever si siht
+```
+## 节流 throttle
+
+指定时间间隔内只会执行一次任务
+
+常用于滚动条滚动监听等
+```js
+function throttle(fn, delay = 500) {
+  let lastTime, time
+  return function(){
+       let context = this;
+    let args = [].slice.call(arguments);
+    time = Date.now()
+    if (!lastTime || time - lastTime > delay) {
+      fn.apply(context)
+      lastTime = time
+    }
+  }
+}
+function fn(){
+  console.log('节流')
+}
+let a =  throttle(fn, 1000)
+function 点击事件(){
+  a()
+}
+```
+## 防抖 debounce
+
+任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行
+
+即：用户在不触发事件时，才触发相应动作，以抑制本来在事件中要执行的动作。
+
+常用于用户输入验证等
+
+```js
+function debounce(fn, waitTime) {
+  let timeout;
+
+  return function() {
+    clearTimeout(timeout);
+    const args = arguments;
+    timeout = setTimeout(() => {
+      fn.apply(this, [...args]);
+    }, waitTime);
+  };
+}
+```
+```js
+/**
+ * @param {Function} func
+ * @param {number} wait
+ * @param {boolean} immediate
+ * @return {*}
+ */
+export function debounce(func, wait, immediate) {
+  let timeout, args, context, timestamp, result
+
+  const later = function() {
+    // 据上一次触发时间间隔
+    const last = +new Date() - timestamp
+
+    // 上次被包装函数被调用时间间隔 last 小于设定时间间隔 wait
+    if (last < wait && last > 0) {
+      timeout = setTimeout(later, wait - last)
+    } else {
+      timeout = null
+      // 如果设定为immediate===true，因为开始边界已经调用过了此处无需调用
+      if (!immediate) {
+        result = func.apply(context, args)
+        if (!timeout) context = args = null
+      }
+    }
+  }
+
+  return function(...args) {
+    context = this
+    timestamp = +new Date()
+    const callNow = immediate && !timeout
+    // 如果延时不存在，重新设定延时
+    if (!timeout) timeout = setTimeout(later, wait)
+    if (callNow) {
+      result = func.apply(context, args)
+      context = args = null
+    }
+
+    return result
+  }
+}
+```
+## 嵌套页面object
+
+路由中嵌套百度或者其他网站
+
+```jsx
+<Route
+  excat
+  path={"/approval-process/data-apply"}
+  // component={ApprovalProcessApproval}
+  // render={() => <iframe src="http://baidu.com" className="iframebox" />}
+	//点击路由进行跳转固定url 首选
+	render={() => <object data="http://baidu.com" className="iframebox" type="text/html" />}
+/>            
+
+```
+## Base64转blob对象
+```js
+// Base64转Blob
+function base642Blob (code) {
+  let parts = code.split(';base64,')
+  let contentType = parts[0].split(':')[1]
+  let raw = window.atob(parts[1])
+  let rawLength = raw.length
+
+  let uInt8Array = new Uint8Array(rawLength)
+
+  for (let i = 0; i < rawLength; i++) {
+    uInt8Array[i] = raw.charCodeAt(i)
+  }
+
+  return new Blob([uInt8Array], {
+    type: contentType
+  })
+},
+```
+## 数字千分位分割
+```js
+function commafy(num) {
+  return (
+    num.toString().indexOf('.') !== -1) ? 
+    num.toLocaleString() : 
+    num.toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,'
+  )
+}
+```
+## 万转换亿
+```js
+const abs = (val) => {
+  var str = (val / 10000).toFixed(4) + '';
+  var intSum = str.substring(0, str.indexOf(".")).replace(/\B(?=(?:\d{3})+$)/g, ',');//取到整数部分
+  var dot = str.substring(str.length, str.indexOf("."))//取到小数部分搜索
+  var ret = intSum + dot;
+  return ret;
+}
+```
+## 生成随机数
+```js
+function randomNum(min, max) {
+  switch (arguments.length) {
+    case 1:
+      return parseInt(Math.random() * min + 1, 10)
+    case 2:
+      return parseInt(Math.random() * (max - min + 1) + min, 10)
+    default:
+      return 0
+  }
+}
+```
+
+## 数字转成中文
+```js
+  const toChineseNum = num => {
+    num += ''
+    let numLength = num.length
+    let numStr = '零一二三四五六七八九十'
+    let unitArr = ['', '十', '百', '千', '万']
+
+    function getResult(str) {
+      let res = '';
+      if (str.length > 5) {
+        let first = str.slice(-5);
+        let second = str.slice(0, str.length - 5);
+        for (let i in second) {
+          res = res + numStr[second[i]] + unitArr[second.length - i];
+        }
+        for (let i in first) {
+          res = res + numStr[first[i]] + unitArr[first.length - i - 1];
+        }
+      } else {
+        let first = str.slice(-5);
+        for (let i in first) {
+          res = res + numStr[first[i]] + unitArr[first.length - i - 1];
+        }
+      }
+      res = res.replace(/零[零十百千]+/g, '零').replace(/零+$/g, '').replace(/零万/g, '万')
+      return res;
+    }
+
+    if (numLength > 8) {
+      return getResult(num.slice(0, numLength - 8)) + '亿' + getResult(num.slice(-8))
+    }
+    return getResult(num)
+  };
+```
+
+## 数字逗号分隔
+```js 
+  const commafy = num => {
+    let numStr = num + '';
+    let arr = num < 0 ? numStr.slice(1).split('.') : numStr.split('.');
+    let a = arr[0].split(''); // 整数部分切割成数组
+    for (let i = a.length - 3; i > 0; i = i - 3) {
+      a.splice(i, 0, ',')
+    }
+    let res = arr[1] ? a.join('') + '.' + arr[1] : a.join('')
+    return num < 0 ? '-' + res : res;
+  };
+  console.log(commafy(12564654.456456)) // 12,564,654.456456
+```
+
+## 16进制颜色值转RGB值
+```js
+  const hexToRGB = (hex) => {
+    if (!/(^\#([a-fA-F0-9]{3})$)|(^\#([a-fA-F0-9]{6})$)/g.test(hex)) return null
+    let allNumberStr = '0123456789abcdef' // 十六进制的所有数字
+    let len = hex.slice(1).length;
+    let str = len === 6 ? hex.slice(1) : hex.slice(1)[0].repeat(2) + hex.slice(1)[1].repeat(2) + hex.slice(1)[2].repeat(2);
+    let arrStr = str.split('');
+    let newArrStr = arrStr.map((item, index) => {
+      return allNumberStr.indexOf((item + '').toLowerCase())
+    })
+    let num1 = newArrStr[0] * 16 + newArrStr[1];
+    let num2 = newArrStr[2] * 16 + newArrStr[3];
+    let num3 = newArrStr[4] * 16 + newArrStr[5];
+    return `rgb(${num1}, ${num2}, ${num3})`
+  }
+  hexToRGB('#ffffff') //'rgb(255, 255, 255)'
+```
+
+## 将 RGB 转换为十六进制
+```js
+  const rgbToHex = (r, g, b) =>   "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+  rgbToHex(255, 255, 255); //  #ffffff
+```
+
+## 随机生成16进制颜色
+```js
+  const randomHexColor = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`
+  console.log(randomHexColor());// #a2ce5b
+```
+
+
+## 两个字符串相加
+```js
+  const add = (a, b) => {
+    // 看看两个字符串长度相差多少，小的在前面补0， 如 10000 和 1， 补0后为 10000 和 00001
+    let leng = Math.abs(a.length - b.length);
+    if (a.length > b.length) {
+      b = Array(leng).join('0') + '0' + b;
+    } else if (a.length < b.length) {
+      a = Array(leng).join('0') + '0' + a;
+    }
+    // 将字符串转化为数组并且倒装，如同小学加法从个位开始算起
+    let textArrA = a.split('').reverse(),
+      textArrB = b.split('').reverse(),
+      resultArr = [];
+
+    // 对数组进行循环
+    for (let i = 0; i < a.length; i++) {
+      // 求和，和小于10，则将和放进目标数组，若大于10，将除以10将余数放进目标数组，然后textArrA数组的下一位 + 1（textArrB数组也可以，选一个即可）
+      let sum = parseInt(textArrA[i]) + parseInt(textArrB[i]);
+
+      // 这里判断是否是最高位数值相加，即i === a.length - 1， 如果是不用取余直接放进去
+      if (parseInt(sum / 10) === 0 || i === a.length - 1) {
+        resultArr.push(sum);
+      } else {
+        resultArr.push(sum % 10);
+        textArrA[i + 1] = parseInt(textArrA[i + 1]) + 1;
+      }
+    }
+    // 最后将目标数组倒装一下，再转成字符串
+    return resultArr.reverse().join('');
+  };
+  console.log(add('1045747', '10')); // 1045757
+
+```
+
+## 检测两日期差多少 
+
+```js
+  const dayDiff = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
+  console.log(dayDiff(new Date("2022-9-26"), new Date("2022-10-1")));  // 5
+```
