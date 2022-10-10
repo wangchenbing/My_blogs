@@ -2,30 +2,14 @@ import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
   "/zh/": [
-    "",
-    // {
-    //   text: "如何使用",
-    //   icon: "creative",
-    //   prefix: "guide/",
-    //   link: "guide/",
-    //   children: "structure",
-    // },
-    // {
-    //   text: "文章",
-    //   icon: "note",
-    //   prefix: "posts/",
-    //   children: "structure",
-    // },
-    // "intro",
-    // "slides",
-
+    "/",
     {
       text: "js",
       collapsable: true,
       prefix: "js/",
-      children: ["markdown", "encrypt",
-        'js封装工具',
+      children: [
         '数组',
+        'js封装工具',
         "BOM对象",
         "DOM操作",
         "移动端踩坑指南",
@@ -40,7 +24,8 @@ export const zhSidebar = sidebar({
         '函数式编程',
         'Currying函数柯里化',
         'Cookie',
-        '正则表达式'],
+        '正则表达式'
+      ],
     },
     {
       text: "css",
