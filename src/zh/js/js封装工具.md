@@ -124,25 +124,33 @@ function filterObj(obj) {
 
 常用于滚动条滚动监听等
 ```js
-function throttle(fn, delay = 500) {
-  let lastTime, time
-  return function(){
-       let context = this;
-    let args = [].slice.call(arguments);
-    time = Date.now()
-    if (!lastTime || time - lastTime > delay) {
-      fn.apply(context)
-      lastTime = time
+  const throttle = (fn, delay=500) => {
+    // 通过Data节流
+    // let lastTime, time
+    // return  () => {
+    //   time = Date.now()
+    //   if (!lastTime || time - lastTime > delay) {
+    //     fn()
+    //     lastTime = time
+    //   }
+    // }
+
+    //通过setTimer节流
+    let timer = null
+    return () => {
+      if (timer) return
+      timer = setTimeout(() => {
+        fn()
+        timer = null
+      }, delay)
     }
   }
-}
-function fn(){
-  console.log('节流')
-}
-let a =  throttle(fn, 1000)
-function onClickFun () {
-  a()
-}
+
+  const b = throttle(() => { console.log('节流') }, 500)
+
+  const onClickfun = () => {
+    b()
+  }
 ```
 ## 防抖 debounce
 
@@ -151,18 +159,19 @@ function onClickFun () {
 常用于用户输入验证等<br/>
 
 ```js
-function debounce(fn, waitTime) {
-  let timeout;
+  const debounce = (fn, waitTime) => {
+    let timeout;
+    return () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => { fn() }, waitTime);
+    };
+  }
 
-  return () => {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => (fn()), waitTime);
-  };
-}
-let a = debounce(()=>(console.log('防抖')),500)
-function onClickFunc () {
+  const a = debounce(() => { console.log('防抖') }, 500)
+
+  const clickfunnfangdou = () => {
     a()
-}
+  }
 ```
 
 ## 嵌套页面object
