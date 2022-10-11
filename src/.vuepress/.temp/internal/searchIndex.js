@@ -2039,6 +2039,70 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "js面试题",
+    "headers": [
+      {
+        "level": 3,
+        "title": "1.",
+        "slug": "_1",
+        "link": "#_1",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "2.",
+        "slug": "_2",
+        "link": "#_2",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "3.",
+        "slug": "_3",
+        "link": "#_3",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "4.",
+        "slug": "_4",
+        "link": "#_4",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "5.",
+        "slug": "_5",
+        "link": "#_5",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "6.",
+        "slug": "_6",
+        "link": "#_6",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "7.",
+        "slug": "_7",
+        "link": "#_7",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "8.",
+        "slug": "_8",
+        "link": "#_8",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E9%9D%A2%E8%AF%95%E9%A2%98/js%E5%8E%9F%E7%94%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Day.js",
     "headers": [],
     "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
@@ -2172,70 +2236,6 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "js面试题",
-    "headers": [
-      {
-        "level": 3,
-        "title": "1.",
-        "slug": "_1",
-        "link": "#_1",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "2.",
-        "slug": "_2",
-        "link": "#_2",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "3.",
-        "slug": "_3",
-        "link": "#_3",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "4.",
-        "slug": "_4",
-        "link": "#_4",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "5.",
-        "slug": "_5",
-        "link": "#_5",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "6.",
-        "slug": "_6",
-        "link": "#_6",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "7.",
-        "slug": "_7",
-        "link": "#_7",
-        "children": []
-      },
-      {
-        "level": 3,
-        "title": "8.",
-        "slug": "_8",
-        "link": "#_8",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E9%9D%A2%E8%AF%95%E9%A2%98/js%E5%8E%9F%E7%94%9F.html",
     "pathLocale": "/",
     "extraFields": []
   },

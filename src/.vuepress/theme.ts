@@ -6,7 +6,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
   logo: "/xiao.png",
   repo: "vuepress-theme-hope/vuepress-theme-hope",
-  repoLabel: "GitHub",
+  // repoLabel: "GitHub",
   docsDir: "docs",
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
   blog: {
@@ -18,11 +18,11 @@ export default hopeTheme({
       Zhihu: "https://example.com",
     },
   },
-  navbarLayout: {
-    left: ["Brand"],
-    center: ["Links"],
-    right: ["Language", "Repo", "Outlook", "Search"],
-  },
+  // navbarLayout: {
+  //   left: ["Brand"],
+  //   center: ["Links"],
+  //   right: ["Language", "Repo", "Outlook", "Search"],
+  // },
   locales: {
     "/": {
       navbar: zhNavbar,
@@ -38,6 +38,7 @@ export default hopeTheme({
     blog: {
       autoExcerpt: true,
     },
+    copyCode: {},
     mdEnhance: {
       align: true,
       attrs: true,

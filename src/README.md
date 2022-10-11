@@ -7,7 +7,7 @@ title: 博客主页
 heroText: Mr.冰的前端
 heroFullScreen: true
 tagline: They laugh at you because you are getting better and better
-bgImage: /guidao.png
+bgImage: /yue2.jpg
 
 # projects:
 #   - icon: project
