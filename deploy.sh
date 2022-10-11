@@ -25,3 +25,9 @@ git commit -m 'deploy'
 git push -f https://github.com/wangchenbing/My_blogs.git master:gh-pages
 
 cd -
+
+git add .
+
+git commit -m '.'
+
+git push
