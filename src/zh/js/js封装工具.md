@@ -140,73 +140,31 @@ function fn(){
   console.log('节流')
 }
 let a =  throttle(fn, 1000)
-function 点击事件(){
+function onClickFun () {
   a()
 }
 ```
 ## 防抖 debounce
 
-任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行
-
-即：用户在不触发事件时，才触发相应动作，以抑制本来在事件中要执行的动作。
-
-常用于用户输入验证等
+任务频繁触发的情况下，只有任务触发的间隔超过指定间隔的时候，任务才会执行<br/>
+即：用户在不触发事件时，才触发相应动作，以抑制本来在事件中要执行的动作。<br/>
+常用于用户输入验证等<br/>
 
 ```js
 function debounce(fn, waitTime) {
   let timeout;
 
-  return function() {
+  return () => {
     clearTimeout(timeout);
-    const args = arguments;
-    timeout = setTimeout(() => {
-      fn.apply(this, [...args]);
-    }, waitTime);
+    timeout = setTimeout(() => (fn()), waitTime);
   };
 }
-```
-```js
-/**
- * @param {Function} func
- * @param {number} wait
- * @param {boolean} immediate
- * @return {*}
- */
-export function debounce(func, wait, immediate) {
-  let timeout, args, context, timestamp, result
-
-  const later = function() {
-    // 据上一次触发时间间隔
-    const last = +new Date() - timestamp
-
-    // 上次被包装函数被调用时间间隔 last 小于设定时间间隔 wait
-    if (last < wait && last > 0) {
-      timeout = setTimeout(later, wait - last)
-    } else {
-      timeout = null
-      // 如果设定为immediate===true，因为开始边界已经调用过了此处无需调用
-      if (!immediate) {
-        result = func.apply(context, args)
-        if (!timeout) context = args = null
-      }
-    }
-  }
-
-  return function(...args) {
-    context = this
-    timestamp = +new Date()
-    const callNow = immediate && !timeout
-    // 如果延时不存在，重新设定延时
-    if (!timeout) timeout = setTimeout(later, wait)
-    if (callNow) {
-      result = func.apply(context, args)
-      context = args = null
-    }
-
-    return result
-  }
+let a = debounce(()=>(console.log('防抖')),500)
+function onClickFunc () {
+    a()
 }
 ```
+
 ## 嵌套页面object
 
 路由中嵌套百度或者其他网站

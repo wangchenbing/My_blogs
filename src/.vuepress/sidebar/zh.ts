@@ -51,7 +51,7 @@ export const zhSidebar = sidebar({
       collapsable: true,
       // icon: "creative",
       prefix: "面试题/",
-      children: ["js原生"],
+      children: ["js原生", "手写代码"],
     },
     {
       text: "前端工具",
