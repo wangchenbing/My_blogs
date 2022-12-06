@@ -267,3 +267,60 @@ tags:
 </style>
 ```
 ## [布局详情](https://juejin.cn/post/6844903982960214029)
+
+## 圣杯布局
+```html
+<body>
+  <!-- <div id="header">#header</div> -->
+  <div id="container">
+    <div id="center" class="column">#center</div>
+    <div id="left" class="column">#left</div>
+    <div id="right" class="column">#right</div>
+  </div>
+  <!-- <div id="footer">#footer</div> -->
+
+  <style>
+    #header,
+    #footer {
+      background: rgba(29, 27, 27, 0.726);
+      text-align: center;
+      height: 60px;
+      line-height: 60px;
+      clear: both;
+    }
+
+    #container {
+      padding: 0 200px;
+      overflow: hidden;
+    }
+
+    .column {
+      height: 200px;
+      float: left;
+      position: relative;
+      text-align: center;
+      line-height: 200px;
+    }
+
+    #left {
+      width: 200px;
+      margin-left: -100%;
+      left: -200px;
+      background-color: aqua;
+    }
+
+    #right {
+      width: 200px;
+      margin-left: -200px;
+      right: -200px;
+      background-color: wheat;
+    }
+
+    #center {
+      width: 100%;
+      background-color: tomato;
+    }
+  </style>
+</body>
+```
+

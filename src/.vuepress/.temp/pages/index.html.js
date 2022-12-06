@@ -1,1 +1,14 @@
-export const data = JSON.parse("{\"key\":\"v-8daa1a0e\",\"path\":\"/\",\"title\":\"博客主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"layout\":\"Blog\",\"icon\":\"home\",\"title\":\"博客主页\",\"heroText\":\"Mr.冰的前端\",\"heroFullScreen\":true,\"tagline\":\"They laugh at you because you are getting better and better\",\"bgImage\":\"/yue2.jpg\"},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1665328767000,\"updatedTime\":1665452908000,\"contributors\":[{\"name\":\"王晨冰\",\"email\":\"wcb_houhuiyouqi@126.com\",\"commits\":2},{\"name\":\"wangchenbing\",\"email\":\"wcb_houhuiyouqi@126.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.77,\"words\":232},\"filePathRelative\":\"README.md\",\"localizedDate\":\"2022年10月9日\"}")
+export const data = JSON.parse("{\"key\":\"v-8daa1a0e\",\"path\":\"/\",\"title\":\"博客主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"layout\":\"Blog\",\"icon\":\"home\",\"title\":\"博客主页\",\"heroText\":\"Mr.冰的前端\",\"heroFullScreen\":true,\"tagline\":\"They laugh at you because you are getting better and better\",\"bgImage\":\"/yue2.jpg\"},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":0.77,\"words\":232},\"filePathRelative\":\"README.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

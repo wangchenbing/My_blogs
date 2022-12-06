@@ -13,7 +13,6 @@ function toFixed(n, fixed) {
     return ~~(Math.pow(10, fixed) * n) / Math.pow(10, fixed)
 }
 ```
-
 ## JS滚动屏幕到顶端的几种方法
 
 - 与带id的元素绑定使用
@@ -105,7 +104,6 @@ function filterObj(obj) {
 }
 
 ```
-
 ## 检测对象是否为空 
 ```js
   const isEmpty = obj => Reflect.ownKeys(obj).length === 0 && obj.constructor === Object;
@@ -173,7 +171,6 @@ function filterObj(obj) {
     a()
   }
 ```
-
 ## 嵌套页面object
 
 路由中嵌套百度或者其他网站
@@ -242,7 +239,6 @@ function randomNum(min, max) {
   }
 }
 ```
-
 ## 数字转成中文
 ```js
   const toChineseNum = num => {
@@ -278,7 +274,6 @@ function randomNum(min, max) {
     return getResult(num)
   };
 ```
-
 ## 数字逗号分隔
 ```js 
   const commafy = num => {
@@ -293,7 +288,6 @@ function randomNum(min, max) {
   };
   console.log(commafy(12564654.456456)) // 12,564,654.456456
 ```
-
 ## 16进制颜色值转RGB值
 ```js
   const hexToRGB = (hex) => {
@@ -312,20 +306,16 @@ function randomNum(min, max) {
   }
   hexToRGB('#ffffff') //'rgb(255, 255, 255)'
 ```
-
 ## 将 RGB 转换为十六进制
 ```js
   const rgbToHex = (r, g, b) =>   "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
   rgbToHex(255, 255, 255); //  #ffffff
 ```
-
 ## 随机生成16进制颜色
 ```js
   const randomHexColor = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`
   console.log(randomHexColor());// #a2ce5b
 ```
-
-
 ## 两个字符串相加
 ```js
   const add = (a, b) => {
@@ -360,10 +350,53 @@ function randomNum(min, max) {
   console.log(add('1045747', '10')); // 1045757
 
 ```
-
 ## 检测两日期差多少 
 
 ```js
   const dayDiff = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
   console.log(dayDiff(new Date("2022-9-26"), new Date("2022-10-1")));  // 5
+```
+## 树状数据扁平化
+```js
+let data = [
+  {
+    "name": "北京市", "code": "11", "children":
+      [
+        {
+          "name": "市辖区", "code": "1101", "children":
+            [
+              {
+                "name": "东城区", "code": "110101", "children":
+                  []
+              }
+            ]
+        }
+      ]
+  },
+  {
+    "name": "天津市", "code": "12", "children":
+      [
+        {
+          "name": "市辖区", "code": "1201", "children":
+            [
+              {
+                "name": "河北区", "code": "120105", "children":
+                  []
+              }
+            ]
+        }
+      ]
+  },]
+
+function flat(data) {
+  return data.reduce((pre, cur) => {
+    // console.log(cur);
+    //此处将对象的children属性和值都解构在空数组中，将对象的其他属性和值都解构在i里面。
+    const { children = [], ...i } = cur;   // 注意 ...i 只能写在解构赋值的末尾，否则报错
+    // console.log(i);
+    // // console.log(children);
+    return pre.concat([{ ...i }], flat(children))  //利用递归回调,数组合并,注意此处 {...i}是解构
+  }, []);
+}
+console.log(flat(data))
 ```

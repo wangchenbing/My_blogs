@@ -47,6 +47,14 @@ export const zhSidebar = sidebar({
         '额外笔记'],
     },
     {
+      text: "npm",
+      collapsable: true,
+      prefix: "npm/",
+      children: [
+        'npm',
+      ],
+    },
+    {
       text: "面试题",
       collapsable: true,
       // icon: "creative",

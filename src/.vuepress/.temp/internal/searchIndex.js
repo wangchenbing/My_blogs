@@ -185,6 +185,28 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "npm",
+    "headers": [
+      {
+        "level": 2,
+        "title": "镜像源地址",
+        "slug": "镜像源地址",
+        "link": "#镜像源地址",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "登录npm",
+        "slug": "登录npm",
+        "link": "#登录npm",
+        "children": []
+      }
+    ],
+    "path": "/zh/npm/npm.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Arguments对象",
     "headers": [],
     "path": "/zh/js/arguments%E5%AF%B9%E8%B1%A1.html",
@@ -317,6 +339,13 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/js/CentOS7%E5%AE%89%E8%A3%85Nginx.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/zh/js/commonJS%E4%B8%8EES6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -578,6 +607,13 @@ export const searchIndex = [
         "title": "检测两日期差多少",
         "slug": "检测两日期差多少",
         "link": "#检测两日期差多少",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "树状数据扁平化",
+        "slug": "树状数据扁平化",
+        "link": "#树状数据扁平化",
         "children": []
       }
     ],
@@ -1033,6 +1069,13 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/js/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "字符串方法",
+    "headers": [],
+    "path": "/zh/js/%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%96%B9%E6%B3%95.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1849,13 +1892,6 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "react项目仓库初始化",
-        "slug": "react项目仓库初始化",
-        "link": "#react项目仓库初始化",
-        "children": []
-      },
-      {
-        "level": 2,
         "title": "快速创建react项目",
         "slug": "快速创建react项目",
         "link": "#快速创建react项目",
@@ -2039,143 +2075,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Day.js",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Git",
-    "headers": [
-      {
-        "level": 2,
-        "title": "常用命令",
-        "slug": "常用命令",
-        "link": "#常用命令",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "lodash使用",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "获取文件的MD5值",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "包管理器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "yarn",
-        "slug": "yarn",
-        "link": "#yarn",
-        "children": [
-          {
-            "level": 3,
-            "title": "新建项目",
-            "slug": "新建项目",
-            "link": "#新建项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "添加依赖",
-            "slug": "添加依赖",
-            "link": "#添加依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "更新依赖",
-            "slug": "更新依赖",
-            "link": "#更新依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除依赖",
-            "slug": "删除依赖",
-            "link": "#删除依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "根据package.json文件为项目安装所有依赖",
-            "slug": "根据package-json文件为项目安装所有依赖",
-            "link": "#根据package-json文件为项目安装所有依赖",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "npm",
-        "slug": "npm",
-        "link": "#npm",
-        "children": [
-          {
-            "level": 3,
-            "title": "查看源",
-            "slug": "查看源",
-            "link": "#查看源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "npm 换源",
-            "slug": "npm-换源",
-            "link": "#npm-换源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "清除npm缓存",
-            "slug": "清除npm缓存",
-            "link": "#清除npm缓存",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删包",
-            "slug": "删包",
-            "link": "#删包",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "初始项目",
-            "slug": "初始项目",
-            "link": "#初始项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装指定版本的包",
-            "slug": "安装指定版本的包",
-            "link": "#安装指定版本的包",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "css面试",
     "headers": [
       {
@@ -2276,6 +2175,13 @@ export const searchIndex = [
         "title": "布局详情",
         "slug": "布局详情",
         "link": "#布局详情",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "圣杯布局",
+        "slug": "圣杯布局",
+        "link": "#圣杯布局",
         "children": []
       }
     ],
@@ -2419,9 +2325,195 @@ export const searchIndex = [
         "slug": "函数柯里化",
         "link": "#函数柯里化",
         "children": []
+      },
+      {
+        "level": 2,
+        "title": "对比版本号",
+        "slug": "对比版本号",
+        "link": "#对比版本号",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写获取url参数",
+        "slug": "手写获取url参数",
+        "link": "#手写获取url参数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "树状数据扁平化",
+        "slug": "树状数据扁平化",
+        "link": "#树状数据扁平化",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写深拷贝",
+        "slug": "手写深拷贝",
+        "link": "#手写深拷贝",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "用setTimeout写setInterval",
+        "slug": "用settimeout写setinterval",
+        "link": "#用settimeout写setinterval",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写filter函数/map函数",
+        "slug": "手写filter函数-map函数",
+        "link": "#手写filter函数-map函数",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "对象扁平化",
+        "slug": "对象扁平化",
+        "link": "#对象扁平化",
+        "children": []
       }
     ],
     "path": "/zh/%E9%9D%A2%E8%AF%95%E9%A2%98/%E6%89%8B%E5%86%99%E4%BB%A3%E7%A0%81.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Day.js",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "常用命令",
+        "slug": "常用命令",
+        "link": "#常用命令",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "lodash使用",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "获取文件的MD5值",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "包管理器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "yarn",
+        "slug": "yarn",
+        "link": "#yarn",
+        "children": [
+          {
+            "level": 3,
+            "title": "新建项目",
+            "slug": "新建项目",
+            "link": "#新建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加依赖",
+            "slug": "添加依赖",
+            "link": "#添加依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更新依赖",
+            "slug": "更新依赖",
+            "link": "#更新依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除依赖",
+            "slug": "删除依赖",
+            "link": "#删除依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "根据package.json文件为项目安装所有依赖",
+            "slug": "根据package-json文件为项目安装所有依赖",
+            "link": "#根据package-json文件为项目安装所有依赖",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "npm",
+        "slug": "npm",
+        "link": "#npm",
+        "children": [
+          {
+            "level": 3,
+            "title": "查看源",
+            "slug": "查看源",
+            "link": "#查看源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "npm 换源",
+            "slug": "npm-换源",
+            "link": "#npm-换源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "清除npm缓存",
+            "slug": "清除npm缓存",
+            "link": "#清除npm缓存",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删包",
+            "slug": "删包",
+            "link": "#删包",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "初始项目",
+            "slug": "初始项目",
+            "link": "#初始项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装指定版本的包",
+            "slug": "安装指定版本的包",
+            "link": "#安装指定版本的包",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2581,3 +2673,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

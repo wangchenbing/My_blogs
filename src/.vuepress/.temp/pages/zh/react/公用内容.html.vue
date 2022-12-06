@@ -1,11 +1,4 @@
-<template><div><h2 id="react项目仓库初始化" tabindex="-1"><a class="header-anchor" href="#react项目仓库初始化" aria-hidden="true">#</a> react项目仓库初始化</h2>
-<blockquote>
-<p>◆ JS</p>
-<p>git clone <a href="https://gitee.com/wang-chenbing/my-react-js.git" target="_blank" rel="noopener noreferrer">https://gitee.com/wang-chenbing/my-react-js.git<ExternalLinkIcon/></a></p>
-<p>◆ TS</p>
-<p>git clone <a href="https://gitee.com/wang-chenbing/my-react-ts.git" target="_blank" rel="noopener noreferrer">https://gitee.com/wang-chenbing/my-react-ts.git<ExternalLinkIcon/></a></p>
-</blockquote>
-<h2 id="快速创建react项目" tabindex="-1"><a class="header-anchor" href="#快速创建react项目" aria-hidden="true">#</a> 快速创建react项目</h2>
+<template><div><h2 id="快速创建react项目" tabindex="-1"><a class="header-anchor" href="#快速创建react项目" aria-hidden="true">#</a> 快速创建react项目</h2>
 <p>◆ JS</p>
 <blockquote>
 <p>yarn create react-app my-app</p>
