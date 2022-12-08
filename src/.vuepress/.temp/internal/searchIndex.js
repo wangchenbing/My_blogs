@@ -7,6 +7,206 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "flex布局",
+    "headers": [
+      {
+        "level": 2,
+        "title": "设置主轴方向",
+        "slug": "设置主轴方向",
+        "link": "#设置主轴方向",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "主轴分布",
+        "slug": "主轴分布",
+        "link": "#主轴分布",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "侧轴分布",
+        "slug": "侧轴分布",
+        "link": "#侧轴分布",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "整体多行布局",
+        "slug": "整体多行布局",
+        "link": "#整体多行布局",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "子盒子是否换行",
+        "slug": "子盒子是否换行",
+        "link": "#子盒子是否换行",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "属性解释",
+        "slug": "属性解释",
+        "link": "#属性解释",
+        "children": [
+          {
+            "level": 3,
+            "title": "flexbox",
+            "slug": "flexbox",
+            "link": "#flexbox",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "flex-direction",
+            "slug": "flex-direction",
+            "link": "#flex-direction",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "flex-wrap",
+            "slug": "flex-wrap",
+            "link": "#flex-wrap",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "flex-flow",
+            "slug": "flex-flow",
+            "link": "#flex-flow",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "justify-content",
+            "slug": "justify-content",
+            "link": "#justify-content",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "align-items",
+            "slug": "align-items",
+            "link": "#align-items",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "align-content",
+            "slug": "align-content",
+            "link": "#align-content",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "order",
+            "slug": "order",
+            "link": "#order",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "flex-basis",
+            "slug": "flex-basis",
+            "link": "#flex-basis",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "flex-grow",
+            "slug": "flex-grow",
+            "link": "#flex-grow",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "flex-shrink",
+            "slug": "flex-shrink",
+            "link": "#flex-shrink",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "align-self",
+            "slug": "align-self",
+            "link": "#align-self",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/css/flex%E5%B8%83%E5%B1%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Grid布局",
+    "headers": [
+      {
+        "level": 2,
+        "title": "间距",
+        "slug": "间距",
+        "link": "#间距",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "行列",
+        "slug": "行列",
+        "link": "#行列",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "主轴分布",
+        "slug": "主轴分布",
+        "link": "#主轴分布",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "侧轴分布,",
+        "slug": "侧轴分布",
+        "link": "#侧轴分布",
+        "children": []
+      }
+    ],
+    "path": "/zh/css/Grid%E5%B8%83%E5%B1%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "幻灯片页",
+    "headers": [],
+    "path": "/zh/css/slides.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "npm",
+    "headers": [
+      {
+        "level": 2,
+        "title": "镜像源地址",
+        "slug": "镜像源地址",
+        "link": "#镜像源地址",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "登录npm",
+        "slug": "登录npm",
+        "link": "#登录npm",
+        "children": []
+      }
+    ],
+    "path": "/zh/npm/npm.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Arguments对象",
     "headers": [],
     "path": "/zh/js/arguments%E5%AF%B9%E8%B1%A1.html",
@@ -1588,206 +1788,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "flex布局",
-    "headers": [
-      {
-        "level": 2,
-        "title": "设置主轴方向",
-        "slug": "设置主轴方向",
-        "link": "#设置主轴方向",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "主轴分布",
-        "slug": "主轴分布",
-        "link": "#主轴分布",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "侧轴分布",
-        "slug": "侧轴分布",
-        "link": "#侧轴分布",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "整体多行布局",
-        "slug": "整体多行布局",
-        "link": "#整体多行布局",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "子盒子是否换行",
-        "slug": "子盒子是否换行",
-        "link": "#子盒子是否换行",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "属性解释",
-        "slug": "属性解释",
-        "link": "#属性解释",
-        "children": [
-          {
-            "level": 3,
-            "title": "flexbox",
-            "slug": "flexbox",
-            "link": "#flexbox",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "flex-direction",
-            "slug": "flex-direction",
-            "link": "#flex-direction",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "flex-wrap",
-            "slug": "flex-wrap",
-            "link": "#flex-wrap",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "flex-flow",
-            "slug": "flex-flow",
-            "link": "#flex-flow",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "justify-content",
-            "slug": "justify-content",
-            "link": "#justify-content",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "align-items",
-            "slug": "align-items",
-            "link": "#align-items",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "align-content",
-            "slug": "align-content",
-            "link": "#align-content",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "order",
-            "slug": "order",
-            "link": "#order",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "flex-basis",
-            "slug": "flex-basis",
-            "link": "#flex-basis",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "flex-grow",
-            "slug": "flex-grow",
-            "link": "#flex-grow",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "flex-shrink",
-            "slug": "flex-shrink",
-            "link": "#flex-shrink",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "align-self",
-            "slug": "align-self",
-            "link": "#align-self",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/css/flex%E5%B8%83%E5%B1%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Grid布局",
-    "headers": [
-      {
-        "level": 2,
-        "title": "间距",
-        "slug": "间距",
-        "link": "#间距",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "行列",
-        "slug": "行列",
-        "link": "#行列",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "主轴分布",
-        "slug": "主轴分布",
-        "link": "#主轴分布",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "侧轴分布,",
-        "slug": "侧轴分布",
-        "link": "#侧轴分布",
-        "children": []
-      }
-    ],
-    "path": "/zh/css/Grid%E5%B8%83%E5%B1%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "幻灯片页",
-    "headers": [],
-    "path": "/zh/css/slides.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "npm",
-    "headers": [
-      {
-        "level": 2,
-        "title": "镜像源地址",
-        "slug": "镜像源地址",
-        "link": "#镜像源地址",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "登录npm",
-        "slug": "登录npm",
-        "link": "#登录npm",
-        "children": []
-      }
-    ],
-    "path": "/zh/npm/npm.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "class类组件",
     "headers": [
       {
@@ -2673,16 +2673,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
