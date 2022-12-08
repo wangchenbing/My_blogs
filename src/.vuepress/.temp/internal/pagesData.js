@@ -1,14 +1,6 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /zh/css/flex%E5%B8%83%E5%B1%80.html
-  "v-7d129068": () => import(/* webpackChunkName: "v-7d129068" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/css/flex布局.html.js").then(({ data }) => data),
-  // path: /zh/css/Grid%E5%B8%83%E5%B1%80.html
-  "v-1008f34a": () => import(/* webpackChunkName: "v-1008f34a" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/css/Grid布局.html.js").then(({ data }) => data),
-  // path: /zh/css/slides.html
-  "v-3a9b2d03": () => import(/* webpackChunkName: "v-3a9b2d03" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/css/slides.html.js").then(({ data }) => data),
-  // path: /zh/npm/npm.html
-  "v-6959d89a": () => import(/* webpackChunkName: "v-6959d89a" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/npm/npm.html.js").then(({ data }) => data),
   // path: /zh/js/arguments%E5%AF%B9%E8%B1%A1.html
   "v-0f16aeaf": () => import(/* webpackChunkName: "v-0f16aeaf" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/js/arguments对象.html.js").then(({ data }) => data),
   // path: /zh/js/BOM%E5%AF%B9%E8%B1%A1.html
@@ -49,6 +41,14 @@ export const pagesData = {
   "v-0f5d52d2": () => import(/* webpackChunkName: "v-0f5d52d2" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/js/深拷贝与浅拷贝.html.js").then(({ data }) => data),
   // path: /zh/js/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97.html
   "v-4eba84f9": () => import(/* webpackChunkName: "v-4eba84f9" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/js/移动端踩坑指南.html.js").then(({ data }) => data),
+  // path: /zh/css/flex%E5%B8%83%E5%B1%80.html
+  "v-7d129068": () => import(/* webpackChunkName: "v-7d129068" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/css/flex布局.html.js").then(({ data }) => data),
+  // path: /zh/css/Grid%E5%B8%83%E5%B1%80.html
+  "v-1008f34a": () => import(/* webpackChunkName: "v-1008f34a" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/css/Grid布局.html.js").then(({ data }) => data),
+  // path: /zh/css/slides.html
+  "v-3a9b2d03": () => import(/* webpackChunkName: "v-3a9b2d03" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/css/slides.html.js").then(({ data }) => data),
+  // path: /zh/npm/npm.html
+  "v-6959d89a": () => import(/* webpackChunkName: "v-6959d89a" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/npm/npm.html.js").then(({ data }) => data),
   // path: /zh/react/class%E7%B1%BB%E7%BB%84%E4%BB%B6.html
   "v-a5df2dc8": () => import(/* webpackChunkName: "v-a5df2dc8" */"C:/Users/王晨冰/Desktop/My_blogs_beta/src/.vuepress/.temp/pages/zh/react/class类组件.html.js").then(({ data }) => data),
   // path: /zh/react/Hooks%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6.html
