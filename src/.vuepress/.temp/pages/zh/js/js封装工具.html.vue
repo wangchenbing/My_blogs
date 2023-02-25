@@ -1,4 +1,45 @@
-<template><div><h2 id="保留小数点" tabindex="-1"><a class="header-anchor" href="#保留小数点" aria-hidden="true">#</a> 保留小数点</h2>
+<template><div><h2 id="终止promise" tabindex="-1"><a class="header-anchor" href="#终止promise" aria-hidden="true">#</a> 终止promise</h2>
+<blockquote>
+<p>AbortController 接口的 abort() 方法会在 DOM 请求完成之前中止它。它能够中止 fetch 请求、各种响应主体或者流的消耗。</p>
+</blockquote>
+<blockquote>
+<p>我们首先使用 AbortController() 构造函数创建一个 controller，然后使用 AbortController.signal 属性获取到它关联的 AbortSignal 对象的引用。</p>
+</blockquote>
+<blockquote>
+<p>当 fetch 请求初始化时，我们将 AbortSignal 作为一个选项传递进入请求的选项对象中（下面的 {signal}）。这将 signal 和 controller 与 fetch 请求相关联，并且允许我们通过调用 AbortController.abort() 去中止它</p>
+</blockquote>
+<div class="language-jsx ext-jsx line-numbers-mode"><pre v-pre class="language-jsx"><code><span class="token comment">//语法</span>
+<span class="token comment">//abort()</span>
+<span class="token comment">//abort(reason)</span>
+<span class="token comment">// reason：操作中止的原因，可以是各种 JavaScript 值</span>
+<span class="token keyword">let</span> <span class="token literal-property property">controller</span><span class="token operator">:</span> any<span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">aboutFun</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  controller<span class="token operator">?.</span><span class="token function">abort</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  controller <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">AbortController</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">queryUserList1Fun</span> <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+<span class="token comment">//调用接口</span>
+  <span class="token keyword">const</span> <span class="token literal-property property">res</span><span class="token operator">:</span> any <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">queryUserList1</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">signal</span><span class="token operator">:</span> controller<span class="token operator">?.</span>signal <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token comment">//保存并渲染数据</span>
+  <span class="token function">setListData</span><span class="token punctuation">(</span>res<span class="token operator">?.</span>data<span class="token operator">?.</span>list<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">queryUserList2Fun</span> <span class="token operator">=</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> <span class="token literal-property property">res</span><span class="token operator">:</span> any <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">queryUserList2</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> <span class="token literal-property property">signal</span><span class="token operator">:</span> controller<span class="token operator">?.</span>signal <span class="token punctuation">}</span><span class="token punctuation">)</span>
+  <span class="token function">setListData</span><span class="token punctuation">(</span>res<span class="token operator">?.</span>data<span class="token operator">?.</span>list<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">onChange</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token literal-property property">key</span><span class="token operator">:</span> string</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  <span class="token function">aboutFun</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>key <span class="token operator">===</span> <span class="token string">'A_Com'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">queryUserList1Fun</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token function">queryUserList2Fun</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="保留小数点" tabindex="-1"><a class="header-anchor" href="#保留小数点" aria-hidden="true">#</a> 保留小数点</h2>
 <blockquote>
 <p>这里为啥不用toFixed(n) 呢， 因为toFixed默认会四舍五入 不知道大家发现了木有 所以这里找到了一个新方法 推荐一下</p>
 </blockquote>

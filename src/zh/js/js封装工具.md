@@ -5,6 +5,47 @@ tags:
  - JS
 ---
 
+
+## 终止promise  
+> AbortController 接口的 abort() 方法会在 DOM 请求完成之前中止它。它能够中止 fetch 请求、各种响应主体或者流的消耗。
+
+> 我们首先使用 AbortController() 构造函数创建一个 controller，然后使用 AbortController.signal 属性获取到它关联的 AbortSignal 对象的引用。
+
+>当 fetch 请求初始化时，我们将 AbortSignal 作为一个选项传递进入请求的选项对象中（下面的 {signal}）。这将 signal 和 controller 与 fetch 请求相关联，并且允许我们通过调用 AbortController.abort() 去中止它
+```jsx
+//语法
+//abort()
+//abort(reason)
+// reason：操作中止的原因，可以是各种 JavaScript 值
+let controller: any;
+
+const aboutFun = () => {
+  controller?.abort();
+  controller = new AbortController()
+}
+
+const queryUserList1Fun = async () => {
+//调用接口
+  const res: any = await queryUserList1({}, { signal: controller?.signal })
+//保存并渲染数据
+  setListData(res?.data?.list)
+}
+
+const queryUserList2Fun = async () => {
+  const res: any = await queryUserList2({}, { signal: controller?.signal })
+  setListData(res?.data?.list)
+}
+
+const onChange = (key: string) => {
+  aboutFun()
+  if (key === 'A_Com') {
+    queryUserList1Fun()
+  } else {
+    queryUserList2Fun()
+  }
+};
+```
+
 ## 保留小数点  
 > 这里为啥不用toFixed(n) 呢， 因为toFixed默认会四舍五入 不知道大家发现了木有 所以这里找到了一个新方法 推荐一下
 

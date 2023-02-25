@@ -7,6 +7,42 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Grid布局",
+    "headers": [
+      {
+        "level": 2,
+        "title": "间距",
+        "slug": "间距",
+        "link": "#间距",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "行列",
+        "slug": "行列",
+        "link": "#行列",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "主轴分布",
+        "slug": "主轴分布",
+        "link": "#主轴分布",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "侧轴分布,",
+        "slug": "侧轴分布",
+        "link": "#侧轴分布",
+        "children": []
+      }
+    ],
+    "path": "/zh/css/Grid%E5%B8%83%E5%B1%80.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "flex布局",
     "headers": [
       {
@@ -142,74 +178,9 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Grid布局",
-    "headers": [
-      {
-        "level": 2,
-        "title": "间距",
-        "slug": "间距",
-        "link": "#间距",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "行列",
-        "slug": "行列",
-        "link": "#行列",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "主轴分布",
-        "slug": "主轴分布",
-        "link": "#主轴分布",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "侧轴分布,",
-        "slug": "侧轴分布",
-        "link": "#侧轴分布",
-        "children": []
-      }
-    ],
-    "path": "/zh/css/Grid%E5%B8%83%E5%B1%80.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "幻灯片页",
     "headers": [],
     "path": "/zh/css/slides.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "npm",
-    "headers": [
-      {
-        "level": 2,
-        "title": "镜像源地址",
-        "slug": "镜像源地址",
-        "link": "#镜像源地址",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "登录npm",
-        "slug": "登录npm",
-        "link": "#登录npm",
-        "children": []
-      }
-    ],
-    "path": "/zh/npm/npm.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Arguments对象",
-    "headers": [],
-    "path": "/zh/js/arguments%E5%AF%B9%E8%B1%A1.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -285,21 +256,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "call  apply  bind",
-    "headers": [
-      {
-        "level": 2,
-        "title": "三者的异同:",
-        "slug": "三者的异同",
-        "link": "#三者的异同",
-        "children": []
-      }
-    ],
-    "path": "/zh/js/call%20&&%20apply%20&&%20bind.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "CentOS7安装Nginx",
     "headers": [
       {
@@ -339,13 +295,6 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/js/CentOS7%E5%AE%89%E8%A3%85Nginx.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "",
-    "headers": [],
-    "path": "/zh/js/commonJS%E4%B8%8EES6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -474,8 +423,207 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "TypeScript",
+    "headers": [
+      {
+        "level": 2,
+        "title": "类型注解",
+        "slug": "类型注解",
+        "link": "#类型注解",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "数组",
+        "slug": "数组",
+        "link": "#数组",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Object",
+        "slug": "object",
+        "link": "#object",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "枚举",
+        "slug": "枚举",
+        "link": "#枚举",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "函数类型",
+        "slug": "函数类型",
+        "link": "#函数类型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "泛型",
+        "slug": "泛型",
+        "link": "#泛型",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "any",
+        "slug": "any",
+        "link": "#any",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "interface接口",
+        "slug": "interface接口",
+        "link": "#interface接口",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "接口可选成员&只读成员",
+        "slug": "接口可选成员-只读成员",
+        "link": "#接口可选成员-只读成员",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类",
+        "slug": "类",
+        "link": "#类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类-只读属性",
+        "slug": "类-只读属性",
+        "link": "#类-只读属性",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类与接口",
+        "slug": "类与接口",
+        "link": "#类与接口",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "抽象类",
+        "slug": "抽象类",
+        "link": "#抽象类",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "泛型",
+        "slug": "泛型-1",
+        "link": "#泛型-1",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类型声明",
+        "slug": "类型声明",
+        "link": "#类型声明",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "7隐式类型推断",
+        "slug": "_7隐式类型推断",
+        "link": "#_7隐式类型推断",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "tsconfig.json文件说明",
+        "slug": "tsconfig-json文件说明",
+        "link": "#tsconfig-json文件说明",
+        "children": []
+      }
+    ],
+    "path": "/zh/js/TypeScript.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Arguments对象",
+    "headers": [],
+    "path": "/zh/js/arguments%E5%AF%B9%E8%B1%A1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "async与await",
+    "headers": [
+      {
+        "level": 3,
+        "title": "async 函数返回值",
+        "slug": "async-函数返回值",
+        "link": "#async-函数返回值",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "await右边值类型区别",
+        "slug": "await右边值类型区别",
+        "link": "#await右边值类型区别",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "例子",
+        "slug": "例子",
+        "link": "#例子",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "总结",
+        "slug": "总结",
+        "link": "#总结",
+        "children": []
+      }
+    ],
+    "path": "/zh/js/async%7Cawait.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "call  apply  bind",
+    "headers": [
+      {
+        "level": 2,
+        "title": "三者的异同:",
+        "slug": "三者的异同",
+        "link": "#三者的异同",
+        "children": []
+      }
+    ],
+    "path": "/zh/js/call%20&&%20apply%20&&%20bind.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "",
+    "headers": [],
+    "path": "/zh/js/commonJS%E4%B8%8EES6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "js封装工具",
     "headers": [
+      {
+        "level": 2,
+        "title": "终止promise",
+        "slug": "终止promise",
+        "link": "#终止promise",
+        "children": []
+      },
       {
         "level": 2,
         "title": "保留小数点",
@@ -840,133 +988,6 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/js/promise%E4%BD%BF%E7%94%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "TypeScript",
-    "headers": [
-      {
-        "level": 2,
-        "title": "类型注解",
-        "slug": "类型注解",
-        "link": "#类型注解",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "数组",
-        "slug": "数组",
-        "link": "#数组",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Object",
-        "slug": "object",
-        "link": "#object",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "枚举",
-        "slug": "枚举",
-        "link": "#枚举",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "函数类型",
-        "slug": "函数类型",
-        "link": "#函数类型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "泛型",
-        "slug": "泛型",
-        "link": "#泛型",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "any",
-        "slug": "any",
-        "link": "#any",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "interface接口",
-        "slug": "interface接口",
-        "link": "#interface接口",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "接口可选成员&只读成员",
-        "slug": "接口可选成员-只读成员",
-        "link": "#接口可选成员-只读成员",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "类",
-        "slug": "类",
-        "link": "#类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "类-只读属性",
-        "slug": "类-只读属性",
-        "link": "#类-只读属性",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "类与接口",
-        "slug": "类与接口",
-        "link": "#类与接口",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "抽象类",
-        "slug": "抽象类",
-        "link": "#抽象类",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "泛型",
-        "slug": "泛型-1",
-        "link": "#泛型-1",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "类型声明",
-        "slug": "类型声明",
-        "link": "#类型声明",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "7隐式类型推断",
-        "slug": "_7隐式类型推断",
-        "link": "#_7隐式类型推断",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "tsconfig.json文件说明",
-        "slug": "tsconfig-json文件说明",
-        "link": "#tsconfig-json文件说明",
-        "children": []
-      }
-    ],
-    "path": "/zh/js/TypeScript.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1788,42 +1809,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "class类组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "setState//待更新",
-        "slug": "setstate-待更新",
-        "link": "#setstate-待更新",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "类组件的传值方式",
-        "slug": "类组件的传值方式",
-        "link": "#类组件的传值方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "input数据存储",
-        "slug": "input数据存储",
-        "link": "#input数据存储",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "React.memo",
-        "slug": "react-memo",
-        "link": "#react-memo",
-        "children": []
-      }
-    ],
-    "path": "/zh/react/class%E7%B1%BB%E7%BB%84%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Hooks函数组件",
     "headers": [
       {
@@ -1884,6 +1869,42 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/react/Hooks%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "class类组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "setState//待更新",
+        "slug": "setstate-待更新",
+        "link": "#setstate-待更新",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类组件的传值方式",
+        "slug": "类组件的传值方式",
+        "link": "#类组件的传值方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "input数据存储",
+        "slug": "input数据存储",
+        "link": "#input数据存储",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React.memo",
+        "slug": "react-memo",
+        "link": "#react-memo",
+        "children": []
+      }
+    ],
+    "path": "/zh/react/class%E7%B1%BB%E7%BB%84%E4%BB%B6.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2071,6 +2092,165 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/react/%E9%A2%9D%E5%A4%96%E7%AC%94%E8%AE%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Day.js",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "常用命令",
+        "slug": "常用命令",
+        "link": "#常用命令",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "lodash使用",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "获取文件的MD5值",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "包管理器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "yarn",
+        "slug": "yarn",
+        "link": "#yarn",
+        "children": [
+          {
+            "level": 3,
+            "title": "新建项目",
+            "slug": "新建项目",
+            "link": "#新建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加依赖",
+            "slug": "添加依赖",
+            "link": "#添加依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更新依赖",
+            "slug": "更新依赖",
+            "link": "#更新依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除依赖",
+            "slug": "删除依赖",
+            "link": "#删除依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "根据package.json文件为项目安装所有依赖",
+            "slug": "根据package-json文件为项目安装所有依赖",
+            "link": "#根据package-json文件为项目安装所有依赖",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "npm",
+        "slug": "npm",
+        "link": "#npm",
+        "children": [
+          {
+            "level": 3,
+            "title": "查看源",
+            "slug": "查看源",
+            "link": "#查看源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "npm 换源",
+            "slug": "npm-换源",
+            "link": "#npm-换源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "清除npm缓存",
+            "slug": "清除npm缓存",
+            "link": "#清除npm缓存",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删包",
+            "slug": "删包",
+            "link": "#删包",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "初始项目",
+            "slug": "初始项目",
+            "link": "#初始项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装指定版本的包",
+            "slug": "安装指定版本的包",
+            "link": "#安装指定版本的包",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "npm",
+    "headers": [
+      {
+        "level": 2,
+        "title": "镜像源地址",
+        "slug": "镜像源地址",
+        "link": "#镜像源地址",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "登录npm",
+        "slug": "登录npm",
+        "link": "#登录npm",
+        "children": []
+      }
+    ],
+    "path": "/zh/npm/npm.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2377,143 +2557,6 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/%E9%9D%A2%E8%AF%95%E9%A2%98/%E6%89%8B%E5%86%99%E4%BB%A3%E7%A0%81.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Day.js",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Git",
-    "headers": [
-      {
-        "level": 2,
-        "title": "常用命令",
-        "slug": "常用命令",
-        "link": "#常用命令",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "lodash使用",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "获取文件的MD5值",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "包管理器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "yarn",
-        "slug": "yarn",
-        "link": "#yarn",
-        "children": [
-          {
-            "level": 3,
-            "title": "新建项目",
-            "slug": "新建项目",
-            "link": "#新建项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "添加依赖",
-            "slug": "添加依赖",
-            "link": "#添加依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "更新依赖",
-            "slug": "更新依赖",
-            "link": "#更新依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除依赖",
-            "slug": "删除依赖",
-            "link": "#删除依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "根据package.json文件为项目安装所有依赖",
-            "slug": "根据package-json文件为项目安装所有依赖",
-            "link": "#根据package-json文件为项目安装所有依赖",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "npm",
-        "slug": "npm",
-        "link": "#npm",
-        "children": [
-          {
-            "level": 3,
-            "title": "查看源",
-            "slug": "查看源",
-            "link": "#查看源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "npm 换源",
-            "slug": "npm-换源",
-            "link": "#npm-换源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "清除npm缓存",
-            "slug": "清除npm缓存",
-            "link": "#清除npm缓存",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删包",
-            "slug": "删包",
-            "link": "#删包",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "初始项目",
-            "slug": "初始项目",
-            "link": "#初始项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装指定版本的包",
-            "slug": "安装指定版本的包",
-            "link": "#安装指定版本的包",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
     "pathLocale": "/",
     "extraFields": []
   },

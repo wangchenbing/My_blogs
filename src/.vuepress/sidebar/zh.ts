@@ -15,6 +15,7 @@ export const zhSidebar = sidebar({
         "移动端踩坑指南",
         "CentOS7安装Nginx",
         'promise使用',
+        'async|await',
         'let,const,var区别',
         '构造函数与原型链',
         'call && apply && bind',

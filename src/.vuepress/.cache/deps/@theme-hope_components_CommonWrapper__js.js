@@ -39,7 +39,7 @@ import "./chunk-XYQ66V4O.js";
 import "./chunk-5E3NKPRU.js";
 
 // node_modules/vuepress-theme-hope/lib/client/components/PageFooter.js
-import "C:/Users/\u738B\u6668\u51B0/Desktop/My_blogs_beta/node_modules/vuepress-theme-hope/lib/client/styles/footer.scss";
+import "/Users/wangchenbing/Desktop/My_blogs/node_modules/vuepress-theme-hope/lib/client/styles/footer.scss";
 var PageFooter_default = defineComponent({
   name: "PageFooter",
   setup() {
@@ -66,7 +66,7 @@ var PageFooter_default = defineComponent({
 });
 
 // node_modules/vuepress-theme-hope/lib/client/components/CommonWrapper.js
-import "C:/Users/\u738B\u6668\u51B0/Desktop/My_blogs_beta/node_modules/vuepress-theme-hope/lib/client/styles/common.scss";
+import "/Users/wangchenbing/Desktop/My_blogs/node_modules/vuepress-theme-hope/lib/client/styles/common.scss";
 var CommonWrapper_default = defineComponent({
   name: "CommonWrapper",
   props: {
