@@ -4,9 +4,9 @@ layout: Blog
 icon: home
 title: 博客主页
 # heroImage: /logo.svg
-heroText: Mr.冰的前端
+heroText: Mr.ice的前端
 heroFullScreen: true
-tagline: They laugh at you because you are getting better and better
+tagline: <h1>Yeah buddy!Light weight baby!</h1>
 bgImage: /yue2.jpg
 
 # projects:

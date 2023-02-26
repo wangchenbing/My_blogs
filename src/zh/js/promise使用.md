@@ -1,7 +1,7 @@
 ---
 title: promise使用
 date: 2022-07-18
-tags:
+tag:
  - JS
 # sidebar: auto
 ---

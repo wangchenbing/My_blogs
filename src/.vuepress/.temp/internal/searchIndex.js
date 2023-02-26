@@ -7,6 +7,269 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "git",
+    "headers": [
+      {
+        "level": 3,
+        "title": "基本流程",
+        "slug": "基本流程",
+        "link": "#基本流程",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "git stash",
+        "slug": "git-stash",
+        "link": "#git-stash",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "回溯 commit",
+        "slug": "回溯-commit",
+        "link": "#回溯-commit",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "迁移代码仓库",
+        "slug": "迁移代码仓库",
+        "link": "#迁移代码仓库",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "回滚代码",
+        "slug": "回滚代码",
+        "link": "#回滚代码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "查看用户信息",
+        "slug": "查看用户信息",
+        "link": "#查看用户信息",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "配置用户信息",
+        "slug": "配置用户信息",
+        "link": "#配置用户信息",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "修改本地分支名称",
+        "slug": "修改本地分支名称",
+        "link": "#修改本地分支名称",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "克隆目标分支",
+        "slug": "克隆目标分支",
+        "link": "#克隆目标分支",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "修改已提交的commit注释",
+        "slug": "修改已提交的commit注释",
+        "link": "#修改已提交的commit注释",
+        "children": []
+      }
+    ],
+    "path": "/zh/git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "npm/nvm",
+    "headers": [
+      {
+        "level": 2,
+        "title": "npm",
+        "slug": "npm",
+        "link": "#npm",
+        "children": [
+          {
+            "level": 3,
+            "title": "镜像源地址",
+            "slug": "镜像源地址",
+            "link": "#镜像源地址",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "登录npm",
+            "slug": "登录npm",
+            "link": "#登录npm",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "nvm",
+        "slug": "nvm",
+        "link": "#nvm",
+        "children": []
+      }
+    ],
+    "path": "/zh/npm.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "各类密码",
+    "headers": [
+      {
+        "level": 3,
+        "title": "无线密码",
+        "slug": "无线密码",
+        "link": "#无线密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "github/vs code账号",
+        "slug": "github-vs-code账号",
+        "link": "#github-vs-code账号",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "码云密码",
+        "slug": "码云密码",
+        "link": "#码云密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Github",
+        "slug": "github",
+        "link": "#github",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "iCloud账号",
+        "slug": "icloud账号",
+        "link": "#icloud账号",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "网易邮箱",
+        "slug": "网易邮箱",
+        "link": "#网易邮箱",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "npm 账号",
+        "slug": "npm-账号",
+        "link": "#npm-账号",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "学信网账号",
+        "slug": "学信网账号",
+        "link": "#学信网账号",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "车牌摇号密码",
+        "slug": "车牌摇号密码",
+        "link": "#车牌摇号密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "爱奇艺账号密码",
+        "slug": "爱奇艺账号密码",
+        "link": "#爱奇艺账号密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "阿里云密码",
+        "slug": "阿里云密码",
+        "link": "#阿里云密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "云闪付密码",
+        "slug": "云闪付密码",
+        "link": "#云闪付密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "浙里版",
+        "slug": "浙里版",
+        "link": "#浙里版",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "拉取代码密码",
+        "slug": "拉取代码密码",
+        "link": "#拉取代码密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "雷蛇密码",
+        "slug": "雷蛇密码",
+        "link": "#雷蛇密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "个税密码",
+        "slug": "个税密码",
+        "link": "#个税密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "交管密码",
+        "slug": "交管密码",
+        "link": "#交管密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "Mac密码",
+        "slug": "mac密码",
+        "link": "#mac密码",
+        "children": []
+      },
+      {
+        "level": 3,
+        "title": "小汪的账号密码",
+        "slug": "小汪的账号密码",
+        "link": "#小汪的账号密码",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E5%90%84%E7%B1%BB%E5%AF%86%E7%A0%81.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "学习与书籍",
+    "headers": [],
+    "path": "/zh/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%B9%A6%E7%B1%8D.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Grid布局",
     "headers": [
       {
@@ -181,6 +444,437 @@ export const searchIndex = [
     "title": "幻灯片页",
     "headers": [],
     "path": "/zh/css/slides.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Hooks函数组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "hooks中父子组件的传值",
+        "slug": "hooks中父子组件的传值",
+        "link": "#hooks中父子组件的传值",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "useState",
+        "slug": "usestate",
+        "link": "#usestate",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "useEffect",
+        "slug": "useeffect",
+        "link": "#useeffect",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "useRef (createRef)",
+        "slug": "useref-createref",
+        "link": "#useref-createref",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "useMemo 和 useCallback",
+        "slug": "usememo-和-usecallback",
+        "link": "#usememo-和-usecallback",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "useContext",
+        "slug": "usecontext",
+        "link": "#usecontext",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "useReducer",
+        "slug": "usereducer",
+        "link": "#usereducer",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "useReducer与useContext同时工作",
+        "slug": "usereducer与usecontext同时工作",
+        "link": "#usereducer与usecontext同时工作",
+        "children": []
+      }
+    ],
+    "path": "/zh/react/Hooks%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "class类组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "setState//待更新",
+        "slug": "setstate-待更新",
+        "link": "#setstate-待更新",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "类组件的传值方式",
+        "slug": "类组件的传值方式",
+        "link": "#类组件的传值方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "input数据存储",
+        "slug": "input数据存储",
+        "link": "#input数据存储",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React.memo",
+        "slug": "react-memo",
+        "link": "#react-memo",
+        "children": []
+      }
+    ],
+    "path": "/zh/react/class%E7%B1%BB%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "公用内容",
+    "headers": [
+      {
+        "level": 2,
+        "title": "快速创建react项目",
+        "slug": "快速创建react项目",
+        "link": "#快速创建react项目",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "React路由",
+        "slug": "react路由",
+        "link": "#react路由",
+        "children": [
+          {
+            "level": 3,
+            "title": "路由传参",
+            "slug": "路由传参",
+            "link": "#路由传参",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "React生命周期",
+        "slug": "react生命周期",
+        "link": "#react生命周期",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Redux",
+        "slug": "redux",
+        "link": "#redux",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "消息订阅与发布",
+        "slug": "消息订阅与发布",
+        "link": "#消息订阅与发布",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "后端返回html文本",
+        "slug": "后端返回html文本",
+        "link": "#后端返回html文本",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Fragment介绍与使用",
+        "slug": "fragment介绍与使用",
+        "link": "#fragment介绍与使用",
+        "children": []
+      }
+    ],
+    "path": "/zh/react/%E5%85%AC%E7%94%A8%E5%86%85%E5%AE%B9.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "功能组件",
+    "headers": [],
+    "path": "/zh/react/%E5%8A%9F%E8%83%BD%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "源码编写",
+    "headers": [],
+    "path": "/zh/react/%E6%BA%90%E7%A0%81%E7%BC%96%E5%86%99.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "组件antd注意事项]",
+    "headers": [
+      {
+        "level": 2,
+        "title": "form表单获取和重置状态",
+        "slug": "form表单获取和重置状态",
+        "link": "#form表单获取和重置状态",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Table表格",
+        "slug": "table表格",
+        "link": "#table表格",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Modal",
+        "slug": "modal",
+        "link": "#modal",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "ProTable使用",
+        "slug": "protable使用",
+        "link": "#protable使用",
+        "children": []
+      }
+    ],
+    "path": "/zh/react/%E7%BB%84%E4%BB%B6antd%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "自定义Hooks",
+    "headers": [
+      {
+        "level": 2,
+        "title": "初始",
+        "slug": "初始",
+        "link": "#初始",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "初次渲染触发useMount",
+        "slug": "初次渲染触发usemount",
+        "link": "#初次渲染触发usemount",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "组件卸载触发useUnMount",
+        "slug": "组件卸载触发useunmount",
+        "link": "#组件卸载触发useunmount",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "只有监听的状态变化才触发",
+        "slug": "只有监听的状态变化才触发",
+        "link": "#只有监听的状态变化才触发",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "获取上一次状态的值",
+        "slug": "获取上一次状态的值",
+        "link": "#获取上一次状态的值",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "异步接口请求,返回",
+        "slug": "异步接口请求-返回",
+        "link": "#异步接口请求-返回",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "监听屏幕的宽高",
+        "slug": "监听屏幕的宽高",
+        "link": "#监听屏幕的宽高",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "监听鼠标位置",
+        "slug": "监听鼠标位置",
+        "link": "#监听鼠标位置",
+        "children": []
+      }
+    ],
+    "path": "/zh/react/%E8%87%AA%E5%AE%9A%E4%B9%89Hooks.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "额外笔记",
+    "headers": [
+      {
+        "level": 2,
+        "title": "React.useEffect的浅比较",
+        "slug": "react-useeffect的浅比较",
+        "link": "#react-useeffect的浅比较",
+        "children": []
+      }
+    ],
+    "path": "/zh/react/%E9%A2%9D%E5%A4%96%E7%AC%94%E8%AE%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Day.js",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "常用命令",
+        "slug": "常用命令",
+        "link": "#常用命令",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "lodash使用",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "获取文件的MD5值",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "包管理器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "yarn",
+        "slug": "yarn",
+        "link": "#yarn",
+        "children": [
+          {
+            "level": 3,
+            "title": "新建项目",
+            "slug": "新建项目",
+            "link": "#新建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加依赖",
+            "slug": "添加依赖",
+            "link": "#添加依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更新依赖",
+            "slug": "更新依赖",
+            "link": "#更新依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除依赖",
+            "slug": "删除依赖",
+            "link": "#删除依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "根据package.json文件为项目安装所有依赖",
+            "slug": "根据package-json文件为项目安装所有依赖",
+            "link": "#根据package-json文件为项目安装所有依赖",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "npm",
+        "slug": "npm",
+        "link": "#npm",
+        "children": [
+          {
+            "level": 3,
+            "title": "查看源",
+            "slug": "查看源",
+            "link": "#查看源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "npm 换源",
+            "slug": "npm-换源",
+            "link": "#npm-换源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "清除npm缓存",
+            "slug": "清除npm缓存",
+            "link": "#清除npm缓存",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删包",
+            "slug": "删包",
+            "link": "#删包",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "初始项目",
+            "slug": "初始项目",
+            "link": "#初始项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装指定版本的包",
+            "slug": "安装指定版本的包",
+            "link": "#安装指定版本的包",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -1809,452 +2503,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Hooks函数组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "hooks中父子组件的传值",
-        "slug": "hooks中父子组件的传值",
-        "link": "#hooks中父子组件的传值",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "useState",
-        "slug": "usestate",
-        "link": "#usestate",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "useEffect",
-        "slug": "useeffect",
-        "link": "#useeffect",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "useRef (createRef)",
-        "slug": "useref-createref",
-        "link": "#useref-createref",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "useMemo 和 useCallback",
-        "slug": "usememo-和-usecallback",
-        "link": "#usememo-和-usecallback",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "useContext",
-        "slug": "usecontext",
-        "link": "#usecontext",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "useReducer",
-        "slug": "usereducer",
-        "link": "#usereducer",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "useReducer与useContext同时工作",
-        "slug": "usereducer与usecontext同时工作",
-        "link": "#usereducer与usecontext同时工作",
-        "children": []
-      }
-    ],
-    "path": "/zh/react/Hooks%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "class类组件",
-    "headers": [
-      {
-        "level": 2,
-        "title": "setState//待更新",
-        "slug": "setstate-待更新",
-        "link": "#setstate-待更新",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "类组件的传值方式",
-        "slug": "类组件的传值方式",
-        "link": "#类组件的传值方式",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "input数据存储",
-        "slug": "input数据存储",
-        "link": "#input数据存储",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "React.memo",
-        "slug": "react-memo",
-        "link": "#react-memo",
-        "children": []
-      }
-    ],
-    "path": "/zh/react/class%E7%B1%BB%E7%BB%84%E4%BB%B6.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "公用内容",
-    "headers": [
-      {
-        "level": 2,
-        "title": "快速创建react项目",
-        "slug": "快速创建react项目",
-        "link": "#快速创建react项目",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "React路由",
-        "slug": "react路由",
-        "link": "#react路由",
-        "children": [
-          {
-            "level": 3,
-            "title": "路由传参",
-            "slug": "路由传参",
-            "link": "#路由传参",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "React生命周期",
-        "slug": "react生命周期",
-        "link": "#react生命周期",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Redux",
-        "slug": "redux",
-        "link": "#redux",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "消息订阅与发布",
-        "slug": "消息订阅与发布",
-        "link": "#消息订阅与发布",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "后端返回html文本",
-        "slug": "后端返回html文本",
-        "link": "#后端返回html文本",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Fragment介绍与使用",
-        "slug": "fragment介绍与使用",
-        "link": "#fragment介绍与使用",
-        "children": []
-      }
-    ],
-    "path": "/zh/react/%E5%85%AC%E7%94%A8%E5%86%85%E5%AE%B9.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "源码编写",
-    "headers": [],
-    "path": "/zh/react/%E6%BA%90%E7%A0%81%E7%BC%96%E5%86%99.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "组件antd注意事项]",
-    "headers": [
-      {
-        "level": 2,
-        "title": "form表单获取和重置状态",
-        "slug": "form表单获取和重置状态",
-        "link": "#form表单获取和重置状态",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Table表格",
-        "slug": "table表格",
-        "link": "#table表格",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Modal",
-        "slug": "modal",
-        "link": "#modal",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "ProTable使用",
-        "slug": "protable使用",
-        "link": "#protable使用",
-        "children": []
-      }
-    ],
-    "path": "/zh/react/%E7%BB%84%E4%BB%B6antd%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "自定义Hooks",
-    "headers": [
-      {
-        "level": 2,
-        "title": "初始",
-        "slug": "初始",
-        "link": "#初始",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "初次渲染触发useMount",
-        "slug": "初次渲染触发usemount",
-        "link": "#初次渲染触发usemount",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "组件卸载触发useUnMount",
-        "slug": "组件卸载触发useunmount",
-        "link": "#组件卸载触发useunmount",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "只有监听的状态变化才触发",
-        "slug": "只有监听的状态变化才触发",
-        "link": "#只有监听的状态变化才触发",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "获取上一次状态的值",
-        "slug": "获取上一次状态的值",
-        "link": "#获取上一次状态的值",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "异步接口请求,返回",
-        "slug": "异步接口请求-返回",
-        "link": "#异步接口请求-返回",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "监听屏幕的宽高",
-        "slug": "监听屏幕的宽高",
-        "link": "#监听屏幕的宽高",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "监听鼠标位置",
-        "slug": "监听鼠标位置",
-        "link": "#监听鼠标位置",
-        "children": []
-      }
-    ],
-    "path": "/zh/react/%E8%87%AA%E5%AE%9A%E4%B9%89Hooks.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "额外笔记",
-    "headers": [
-      {
-        "level": 2,
-        "title": "React.useEffect的浅比较",
-        "slug": "react-useeffect的浅比较",
-        "link": "#react-useeffect的浅比较",
-        "children": []
-      }
-    ],
-    "path": "/zh/react/%E9%A2%9D%E5%A4%96%E7%AC%94%E8%AE%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Day.js",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Git",
-    "headers": [
-      {
-        "level": 2,
-        "title": "常用命令",
-        "slug": "常用命令",
-        "link": "#常用命令",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "lodash使用",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "获取文件的MD5值",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "包管理器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "yarn",
-        "slug": "yarn",
-        "link": "#yarn",
-        "children": [
-          {
-            "level": 3,
-            "title": "新建项目",
-            "slug": "新建项目",
-            "link": "#新建项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "添加依赖",
-            "slug": "添加依赖",
-            "link": "#添加依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "更新依赖",
-            "slug": "更新依赖",
-            "link": "#更新依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除依赖",
-            "slug": "删除依赖",
-            "link": "#删除依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "根据package.json文件为项目安装所有依赖",
-            "slug": "根据package-json文件为项目安装所有依赖",
-            "link": "#根据package-json文件为项目安装所有依赖",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "npm",
-        "slug": "npm",
-        "link": "#npm",
-        "children": [
-          {
-            "level": 3,
-            "title": "查看源",
-            "slug": "查看源",
-            "link": "#查看源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "npm 换源",
-            "slug": "npm-换源",
-            "link": "#npm-换源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "清除npm缓存",
-            "slug": "清除npm缓存",
-            "link": "#清除npm缓存",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删包",
-            "slug": "删包",
-            "link": "#删包",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "初始项目",
-            "slug": "初始项目",
-            "link": "#初始项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装指定版本的包",
-            "slug": "安装指定版本的包",
-            "link": "#安装指定版本的包",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "npm",
-    "headers": [
-      {
-        "level": 2,
-        "title": "镜像源地址",
-        "slug": "镜像源地址",
-        "link": "#镜像源地址",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "登录npm",
-        "slug": "登录npm",
-        "link": "#登录npm",
-        "children": []
-      }
-    ],
-    "path": "/zh/npm/npm.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "css面试",
     "headers": [
       {
@@ -2702,9 +2950,44 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "使用指南 分类",
+    "title": "git 标签",
     "headers": [],
-    "path": "/category/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "path": "/tag/git/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "npm/nvm 标签",
+    "headers": [],
+    "path": "/tag/npmnvm/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "书籍 标签",
+    "headers": [],
+    "path": "/tag/%E4%B9%A6%E7%B1%8D/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "CSS 标签",
+    "headers": [],
+    "path": "/tag/css/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "React 标签",
+    "headers": [],
+    "path": "/tag/react/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JS 标签",
+    "headers": [],
+    "path": "/tag/js/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2712,6 +2995,20 @@ export const searchIndex = [
     "title": "markdown 标签",
     "headers": [],
     "path": "/tag/markdown/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "css面试 标签",
+    "headers": [],
+    "path": "/tag/css%E9%9D%A2%E8%AF%95/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "JS面试 标签",
+    "headers": [],
+    "path": "/tag/js%E9%9D%A2%E8%AF%95/",
     "pathLocale": "/",
     "extraFields": []
   }

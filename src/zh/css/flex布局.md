@@ -1,7 +1,7 @@
 ---
 title: flex布局
 date: 2022-7-18
-tags:
+tag:
  - CSS
 categories:
  - 重要笔记

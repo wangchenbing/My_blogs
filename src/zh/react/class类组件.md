@@ -1,7 +1,7 @@
 ---
 title: class类组件
 date: 2022-07-14
-tags:
+tag:
  - React
 categories:
  - 重要笔记

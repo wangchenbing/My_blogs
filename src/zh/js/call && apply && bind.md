@@ -1,7 +1,7 @@
 ---
 title: call  apply  bind
 date: 2022-07-18
-tags:
+tag:
  - JS
 categories:
  - 重要笔记

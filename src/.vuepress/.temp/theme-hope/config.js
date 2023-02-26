@@ -20,6 +20,9 @@ import BlogHome from "@theme-hope/modules/blog/components/BlogHome.js";
 import BlogPage from "@theme-hope/modules/blog/components/BlogPage.js";
 import { setupBlog } from "@theme-hope/modules/blog/composables/index.js";
 import "/Users/wangchenbing/Desktop/My_blogs/node_modules/vuepress-theme-hope/lib/client/modules/blog/styles/layout.scss";
+
+import GloablEncrypt from "@theme-hope/modules/encrypt/components/GloablEncrypt.js";
+import LocalEncrypt from "@theme-hope/modules/encrypt/components/LocalEncrypt.js";
 import Slide from "/Users/wangchenbing/Desktop/My_blogs/node_modules/vuepress-theme-hope/lib/client/layouts/Slide.js";
 import Blog from "/Users/wangchenbing/Desktop/My_blogs/node_modules/vuepress-theme-hope/lib/client/modules/blog/layouts/Blog.js";
 
@@ -48,6 +51,9 @@ export default defineClientConfig({
     app.component("BloggerInfo", BloggerInfo);
     app.component("BlogHome", BlogHome);
     app.component("BlogPage", BlogPage);
+    
+    app.component("GloablEncrypt", GloablEncrypt);
+    app.component("LocalEncrypt", LocalEncrypt);
     
   },
   setup: () => {

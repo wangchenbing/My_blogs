@@ -1,7 +1,7 @@
 ---
 title: TypeScript
 date: 2022-07-19
-tags:
+tag:
  - JS
 ---
 

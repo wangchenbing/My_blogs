@@ -1,7 +1,7 @@
 ---
 title: BOM对象
 date: 2022-07-18
-tags:
+tag:
  - JS
 ---
 

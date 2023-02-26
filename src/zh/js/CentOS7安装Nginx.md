@@ -1,7 +1,7 @@
 ---
 title: CentOS7安装Nginx
 date: 2022-07-18
-tags:
+tag:
  - JS
 ---
 

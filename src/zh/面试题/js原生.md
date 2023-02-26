@@ -1,7 +1,7 @@
 ---
 title: js面试题
 date: 2022-9-22
-tags:
+tag:
  - JS面试
 ---
 

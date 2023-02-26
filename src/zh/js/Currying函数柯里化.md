@@ -1,7 +1,7 @@
 ---
 title: Currying函数柯里化
 date: 2022-09-26
-tags:
+tag:
  - JS
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: js封装工具
 date: 2022-08-04
-tags:
+tag:
  - JS
 ---
 

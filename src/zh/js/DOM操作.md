@@ -1,7 +1,7 @@
 ---
 title: DOM操作
 date: 2022-07-18
-tags:
+tag:
  - JS
 ---
 
