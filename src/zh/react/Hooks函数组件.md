@@ -800,3 +800,52 @@ const C = () => {
 	}, [state.count2])
 }
 ```
+
+## useImperativeHandle 与 forwardRef
+> 语法 useImperativeHandle(ref, createHandle, [deps])
+-- 官方说明
+```text
+useImperativeHandle 可以让你在使用 ref 时自定义暴露给父组件的实例值。
+在大多数情况下，应当避免使用 ref 这样的命令式代码。
+useImperativeHandle 应当与 forwardRef 一起使用：
+```
+```tsx
+//父组件
+import React, { useRef } from 'react';
+import { Button } from 'antd';
+import ChildComponent from './components/Child';
+
+export default () => {
+  const childRef = useRef(null)
+  const callChild = () => {
+    const { getInfo } = childRef.current as any
+    getInfo()
+    console.log(childRef);
+  }
+  return (
+    <div >
+      <ChildComponent ref={childRef}></ChildComponent>
+      <Button onClick={callChild}>按钮</Button>
+    </div>
+
+  );
+};
+```
+```tsx
+//子组件
+import React, { forwardRef, useImperativeHandle } from 'react';
+
+export default forwardRef((props, ref) => {
+  useImperativeHandle(ref, () => ({
+    getInfo: () => {
+      console.log('info···')
+    }
+  }))
+  return (
+    <div>子组件</div>
+  );
+});
+```
+
+
+
