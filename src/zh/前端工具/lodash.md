@@ -1,6 +1,6 @@
 ---
 title: lodash使用
-date: 2022-8-2
+date: 2022-08-02
 ---
 
 [lodash中文官网]( https://www.lodashjs.com/)

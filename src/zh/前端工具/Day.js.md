@@ -1,6 +1,6 @@
 ---
 title: Day.js
-date: 2022-8-2
+date: 2022-08-02
 ---
 
 [Day.js中文官网]( https://www.lodashjs.com/)

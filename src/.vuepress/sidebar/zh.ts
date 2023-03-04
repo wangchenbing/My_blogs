@@ -34,7 +34,7 @@ export const zhSidebar = sidebar({
       icon: 'css',
       collapsable: true,
       prefix: "css/",
-      children: ['flex布局', "Grid布局", "slides"],
+      children: ['css新花样', 'flex布局', "Grid布局", "slides"],
     },
     {
       text: "react",

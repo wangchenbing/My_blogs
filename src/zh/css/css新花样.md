@@ -1,19 +1,19 @@
 ---
-title: 霓虹灯六角形粒子动画
-date: 2022-7-18
+title: css新花样
+date: 2022-07-18
 ---
 
 
-<particles/>   
+<!-- <particles/>    -->
 
->Math.random() 这个函数原来可以做很多事情 嗯哼 
+::: normal-demo 霓虹灯六角形粒子动画
 
 ```html
-<canvas id="canvas" style="position: absolute; height: 100%;"/>
+	<canvas id="canvas" style="position: absolute; height: 300px;  "/>
 ```
 
 ```js
-   var c = document.getElementById('canvas');
+ var c = document.getElementById('canvas');
    	var w = c.width = window.innerWidth,
    			h = c.height = window.innerHeight,
    			ctx = c.getContext( '2d' ),
@@ -141,3 +141,9 @@ date: 2022-7-18
    		dieY = h / 2 / opts.len;
    	});
 ```
+
+```css
+/* css code */
+```
+:::
+------
