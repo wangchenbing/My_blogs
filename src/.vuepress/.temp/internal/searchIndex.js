@@ -2258,6 +2258,21 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "封装组件",
+    "headers": [
+      {
+        "level": 2,
+        "title": "React.useEffect的浅比较",
+        "slug": "react-useeffect的浅比较",
+        "link": "#react-useeffect的浅比较",
+        "children": []
+      }
+    ],
+    "path": "/zh/react/%E5%B0%81%E8%A3%85%E7%BB%84%E4%BB%B6.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "源码编写",
     "headers": [],
     "path": "/zh/react/%E6%BA%90%E7%A0%81%E7%BC%96%E5%86%99.html",
@@ -2398,6 +2413,13 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "excel.js",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/excel%E8%A1%A8%E6%A0%BC%E7%94%9F%E6%88%90.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3020,3 +3042,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}

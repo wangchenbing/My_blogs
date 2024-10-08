@@ -50,7 +50,8 @@ export const zhSidebar = sidebar({
         '源码编写',
         '组件antd注意事项',
         '自定义Hooks',
-        '额外笔记'
+        '额外笔记',
+        '封装组件'
       ],
     },
     {

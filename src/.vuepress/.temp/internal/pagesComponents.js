@@ -69,6 +69,8 @@ export const pagesComponents = {
   "v-4210f258": defineAsyncComponent(() => import(/* webpackChunkName: "v-4210f258" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/react/公用内容.html.vue")),
   // path: /zh/react/%E5%8A%9F%E8%83%BD%E7%BB%84%E4%BB%B6.html
   "v-36c5b1e6": defineAsyncComponent(() => import(/* webpackChunkName: "v-36c5b1e6" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/react/功能组件.html.vue")),
+  // path: /zh/react/%E5%B0%81%E8%A3%85%E7%BB%84%E4%BB%B6.html
+  "v-3cade7a9": defineAsyncComponent(() => import(/* webpackChunkName: "v-3cade7a9" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/react/封装组件.html.vue")),
   // path: /zh/react/%E6%BA%90%E7%A0%81%E7%BC%96%E5%86%99.html
   "v-25fac9ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-25fac9ac" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/react/源码编写.html.vue")),
   // path: /zh/react/%E7%BB%84%E4%BB%B6antd%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9.html
@@ -81,6 +83,8 @@ export const pagesComponents = {
   "v-0cd900eb": defineAsyncComponent(() => import(/* webpackChunkName: "v-0cd900eb" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/Day.js.html.vue")),
   // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html
   "v-4108d75a": defineAsyncComponent(() => import(/* webpackChunkName: "v-4108d75a" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/Git.html.vue")),
+  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/excel%E8%A1%A8%E6%A0%BC%E7%94%9F%E6%88%90.html
+  "v-57fe1428": defineAsyncComponent(() => import(/* webpackChunkName: "v-57fe1428" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/excel表格生成.html.vue")),
   // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html
   "v-03aa8ade": defineAsyncComponent(() => import(/* webpackChunkName: "v-03aa8ade" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/lodash.html.vue")),
   // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html

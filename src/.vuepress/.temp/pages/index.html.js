@@ -1,1 +1,14 @@
-export const data = JSON.parse("{\"key\":\"v-8daa1a0e\",\"path\":\"/\",\"title\":\"博客主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"layout\":\"Blog\",\"icon\":\"home\",\"title\":\"博客主页\",\"heroText\":\"Mr.ice的前端\",\"heroFullScreen\":true,\"tagline\":\"<h1>Yeah buddy!Light weight baby!</h1>\",\"bgImage\":\"/yue2.jpg\"},\"excerpt\":\"\",\"headers\":[],\"git\":{\"createdTime\":1665328767000,\"updatedTime\":1677404342000,\"contributors\":[{\"name\":\"wangchenbing\",\"email\":\"wcb_houhuiyouqi@126.com\",\"commits\":2},{\"name\":\"王晨冰\",\"email\":\"wcb_houhuiyouqi@126.com\",\"commits\":2}]},\"readingTime\":{\"minutes\":0.76,\"words\":227},\"filePathRelative\":\"README.md\",\"localizedDate\":\"2022年10月9日\"}")
+export const data = JSON.parse("{\"key\":\"v-8daa1a0e\",\"path\":\"/\",\"title\":\"博客主页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true,\"layout\":\"Blog\",\"icon\":\"home\",\"title\":\"博客主页\",\"heroText\":\"Mr.ice的前端\",\"heroFullScreen\":true,\"tagline\":\"<h1>Yeah buddy!Light weight baby!</h1>\",\"bgImage\":\"/yue2.jpg\"},\"excerpt\":\"\",\"headers\":[],\"readingTime\":{\"minutes\":0.76,\"words\":227},\"filePathRelative\":\"README.md\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
