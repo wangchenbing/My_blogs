@@ -2262,9 +2262,23 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "React.useEffect的浅比较",
-        "slug": "react-useeffect的浅比较",
-        "link": "#react-useeffect的浅比较",
+        "title": "获取html文本",
+        "slug": "获取html文本",
+        "link": "#获取html文本",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "纯前端筛选",
+        "slug": "纯前端筛选",
+        "link": "#纯前端筛选",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写虚拟列表",
+        "slug": "手写虚拟列表",
+        "link": "#手写虚拟列表",
         "children": []
       }
     ],
@@ -3042,16 +3056,3 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
