@@ -2079,6 +2079,150 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "Day.js",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "常用命令",
+        "slug": "常用命令",
+        "link": "#常用命令",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "excel.js",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/excel%E8%A1%A8%E6%A0%BC%E7%94%9F%E6%88%90.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "lodash使用",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "获取文件的MD5值",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "包管理器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "yarn",
+        "slug": "yarn",
+        "link": "#yarn",
+        "children": [
+          {
+            "level": 3,
+            "title": "新建项目",
+            "slug": "新建项目",
+            "link": "#新建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加依赖",
+            "slug": "添加依赖",
+            "link": "#添加依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更新依赖",
+            "slug": "更新依赖",
+            "link": "#更新依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除依赖",
+            "slug": "删除依赖",
+            "link": "#删除依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "根据package.json文件为项目安装所有依赖",
+            "slug": "根据package-json文件为项目安装所有依赖",
+            "link": "#根据package-json文件为项目安装所有依赖",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "npm",
+        "slug": "npm",
+        "link": "#npm",
+        "children": [
+          {
+            "level": 3,
+            "title": "查看源",
+            "slug": "查看源",
+            "link": "#查看源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "npm 换源",
+            "slug": "npm-换源",
+            "link": "#npm-换源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "清除npm缓存",
+            "slug": "清除npm缓存",
+            "link": "#清除npm缓存",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删包",
+            "slug": "删包",
+            "link": "#删包",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "初始项目",
+            "slug": "初始项目",
+            "link": "#初始项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装指定版本的包",
+            "slug": "安装指定版本的包",
+            "link": "#安装指定版本的包",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Hooks函数组件",
     "headers": [
       {
@@ -2405,150 +2549,6 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/react/%E9%A2%9D%E5%A4%96%E7%AC%94%E8%AE%B0.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Day.js",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Git",
-    "headers": [
-      {
-        "level": 2,
-        "title": "常用命令",
-        "slug": "常用命令",
-        "link": "#常用命令",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "excel.js",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/excel%E8%A1%A8%E6%A0%BC%E7%94%9F%E6%88%90.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "lodash使用",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "获取文件的MD5值",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "包管理器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "yarn",
-        "slug": "yarn",
-        "link": "#yarn",
-        "children": [
-          {
-            "level": 3,
-            "title": "新建项目",
-            "slug": "新建项目",
-            "link": "#新建项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "添加依赖",
-            "slug": "添加依赖",
-            "link": "#添加依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "更新依赖",
-            "slug": "更新依赖",
-            "link": "#更新依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除依赖",
-            "slug": "删除依赖",
-            "link": "#删除依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "根据package.json文件为项目安装所有依赖",
-            "slug": "根据package-json文件为项目安装所有依赖",
-            "link": "#根据package-json文件为项目安装所有依赖",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "npm",
-        "slug": "npm",
-        "link": "#npm",
-        "children": [
-          {
-            "level": 3,
-            "title": "查看源",
-            "slug": "查看源",
-            "link": "#查看源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "npm 换源",
-            "slug": "npm-换源",
-            "link": "#npm-换源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "清除npm缓存",
-            "slug": "清除npm缓存",
-            "link": "#清除npm缓存",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删包",
-            "slug": "删包",
-            "link": "#删包",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "初始项目",
-            "slug": "初始项目",
-            "link": "#初始项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装指定版本的包",
-            "slug": "安装指定版本的包",
-            "link": "#安装指定版本的包",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
     "pathLocale": "/",
     "extraFields": []
   },
