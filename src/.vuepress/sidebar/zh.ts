@@ -39,7 +39,6 @@ export const zhSidebar = sidebar({
     {
       text: "react",
       icon: 'react',
-
       collapsable: true,
       prefix: "react/",
       children: [
@@ -78,4 +77,17 @@ export const zhSidebar = sidebar({
     { text: "学习与书籍", link: "/zh/学习与书籍.md", icon: "editor" },
     { text: "各类密码", link: "/zh/各类密码.md", icon: "editor" },
   ],
+  "/personal/": [
+    { text: "简历", link: "/personal/个人简历.md", icon: "npm" },
+    {
+      text: "项目",
+      collapsable: true,
+      prefix: "ProjectDone/",
+      icon: 'javascript',
+      children: [
+        '网商星火'
+      ],
+    },
+
+  ]
 });

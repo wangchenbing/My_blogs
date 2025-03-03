@@ -7,6 +7,108 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "王晨冰",
+    "headers": [
+      {
+        "level": 2,
+        "title": "联系方式",
+        "slug": "联系方式",
+        "link": "#联系方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "个人简介",
+        "slug": "个人简介",
+        "link": "#个人简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "工作经历",
+        "slug": "工作经历",
+        "link": "#工作经历",
+        "children": [
+          {
+            "level": 3,
+            "title": "前端开发工程师",
+            "slug": "前端开发工程师",
+            "link": "#前端开发工程师",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "技能",
+        "slug": "技能",
+        "link": "#技能",
+        "children": [
+          {
+            "level": 3,
+            "title": "编程语言",
+            "slug": "编程语言",
+            "link": "#编程语言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "前端技术",
+            "slug": "前端技术",
+            "link": "#前端技术",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "工具与平台",
+            "slug": "工具与平台",
+            "link": "#工具与平台",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他",
+            "slug": "其他",
+            "link": "#其他",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "项目经验",
+        "slug": "项目经验",
+        "link": "#项目经验",
+        "children": [
+          {
+            "level": 3,
+            "title": "支付宝App-网商星火",
+            "slug": "支付宝app-网商星火",
+            "link": "#支付宝app-网商星火",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "蚂蚁金服-C端-微光",
+            "slug": "蚂蚁金服-c端-微光",
+            "link": "#蚂蚁金服-c端-微光",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "兴趣爱好",
+        "slug": "兴趣爱好",
+        "link": "#兴趣爱好",
+        "children": []
+      }
+    ],
+    "path": "/personal/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "git",
     "headers": [
       {
@@ -266,6 +368,115 @@ export const searchIndex = [
     "title": "学习与书籍",
     "headers": [],
     "path": "/zh/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%B9%A6%E7%B1%8D.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "王晨冰",
+    "headers": [
+      {
+        "level": 2,
+        "title": "联系方式",
+        "slug": "联系方式",
+        "link": "#联系方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "个人简介",
+        "slug": "个人简介",
+        "link": "#个人简介",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "工作经历",
+        "slug": "工作经历",
+        "link": "#工作经历",
+        "children": [
+          {
+            "level": 3,
+            "title": "前端开发工程师",
+            "slug": "前端开发工程师",
+            "link": "#前端开发工程师",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "技能",
+        "slug": "技能",
+        "link": "#技能",
+        "children": [
+          {
+            "level": 3,
+            "title": "编程语言",
+            "slug": "编程语言",
+            "link": "#编程语言",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "前端技术",
+            "slug": "前端技术",
+            "link": "#前端技术",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "工具与平台",
+            "slug": "工具与平台",
+            "link": "#工具与平台",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "其他",
+            "slug": "其他",
+            "link": "#其他",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "项目经验",
+        "slug": "项目经验",
+        "link": "#项目经验",
+        "children": [
+          {
+            "level": 3,
+            "title": "支付宝App-网商星火",
+            "slug": "支付宝app-网商星火",
+            "link": "#支付宝app-网商星火",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "蚂蚁金服-C端-微光",
+            "slug": "蚂蚁金服-c端-微光",
+            "link": "#蚂蚁金服-c端-微光",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "兴趣爱好",
+        "slug": "兴趣爱好",
+        "link": "#兴趣爱好",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E7%AE%80%E5%8E%86.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "网商星火",
+    "headers": [],
+    "path": "/personal/ProjectDone/%E7%BD%91%E5%95%86%E6%98%9F%E7%81%AB.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2079,150 +2290,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "Day.js",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Git",
-    "headers": [
-      {
-        "level": 2,
-        "title": "常用命令",
-        "slug": "常用命令",
-        "link": "#常用命令",
-        "children": []
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "excel.js",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/excel%E8%A1%A8%E6%A0%BC%E7%94%9F%E6%88%90.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "lodash使用",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "获取文件的MD5值",
-    "headers": [],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "包管理器",
-    "headers": [
-      {
-        "level": 2,
-        "title": "yarn",
-        "slug": "yarn",
-        "link": "#yarn",
-        "children": [
-          {
-            "level": 3,
-            "title": "新建项目",
-            "slug": "新建项目",
-            "link": "#新建项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "添加依赖",
-            "slug": "添加依赖",
-            "link": "#添加依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "更新依赖",
-            "slug": "更新依赖",
-            "link": "#更新依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删除依赖",
-            "slug": "删除依赖",
-            "link": "#删除依赖",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "根据package.json文件为项目安装所有依赖",
-            "slug": "根据package-json文件为项目安装所有依赖",
-            "link": "#根据package-json文件为项目安装所有依赖",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "npm",
-        "slug": "npm",
-        "link": "#npm",
-        "children": [
-          {
-            "level": 3,
-            "title": "查看源",
-            "slug": "查看源",
-            "link": "#查看源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "npm 换源",
-            "slug": "npm-换源",
-            "link": "#npm-换源",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "清除npm缓存",
-            "slug": "清除npm缓存",
-            "link": "#清除npm缓存",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "删包",
-            "slug": "删包",
-            "link": "#删包",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "初始项目",
-            "slug": "初始项目",
-            "link": "#初始项目",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "安装指定版本的包",
-            "slug": "安装指定版本的包",
-            "link": "#安装指定版本的包",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Hooks函数组件",
     "headers": [
       {
@@ -2549,6 +2616,150 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/react/%E9%A2%9D%E5%A4%96%E7%AC%94%E8%AE%B0.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Day.js",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Git",
+    "headers": [
+      {
+        "level": 2,
+        "title": "常用命令",
+        "slug": "常用命令",
+        "link": "#常用命令",
+        "children": []
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "excel.js",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/excel%E8%A1%A8%E6%A0%BC%E7%94%9F%E6%88%90.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "lodash使用",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "获取文件的MD5值",
+    "headers": [],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "包管理器",
+    "headers": [
+      {
+        "level": 2,
+        "title": "yarn",
+        "slug": "yarn",
+        "link": "#yarn",
+        "children": [
+          {
+            "level": 3,
+            "title": "新建项目",
+            "slug": "新建项目",
+            "link": "#新建项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "添加依赖",
+            "slug": "添加依赖",
+            "link": "#添加依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "更新依赖",
+            "slug": "更新依赖",
+            "link": "#更新依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删除依赖",
+            "slug": "删除依赖",
+            "link": "#删除依赖",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "根据package.json文件为项目安装所有依赖",
+            "slug": "根据package-json文件为项目安装所有依赖",
+            "link": "#根据package-json文件为项目安装所有依赖",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "npm",
+        "slug": "npm",
+        "link": "#npm",
+        "children": [
+          {
+            "level": 3,
+            "title": "查看源",
+            "slug": "查看源",
+            "link": "#查看源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "npm 换源",
+            "slug": "npm-换源",
+            "link": "#npm-换源",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "清除npm缓存",
+            "slug": "清除npm缓存",
+            "link": "#清除npm缓存",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "删包",
+            "slug": "删包",
+            "link": "#删包",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "初始项目",
+            "slug": "初始项目",
+            "link": "#初始项目",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "安装指定版本的包",
+            "slug": "安装指定版本的包",
+            "link": "#安装指定版本的包",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html",
     "pathLocale": "/",
     "extraFields": []
   },

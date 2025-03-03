@@ -3,6 +3,8 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/index.html.vue")),
+  // path: /personal/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.html
+  "v-178d09dc": defineAsyncComponent(() => import(/* webpackChunkName: "v-178d09dc" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/personal/个人简历.html.vue")),
   // path: /zh/git.html
   "v-366c1d22": defineAsyncComponent(() => import(/* webpackChunkName: "v-366c1d22" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/git.html.vue")),
   // path: /zh/npm.html
@@ -11,6 +13,10 @@ export const pagesComponents = {
   "v-012d5460": defineAsyncComponent(() => import(/* webpackChunkName: "v-012d5460" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/各类密码.html.vue")),
   // path: /zh/%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%B9%A6%E7%B1%8D.html
   "v-3d936d79": defineAsyncComponent(() => import(/* webpackChunkName: "v-3d936d79" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/学习与书籍.html.vue")),
+  // path: /zh/%E7%AE%80%E5%8E%86.html
+  "v-11f76136": defineAsyncComponent(() => import(/* webpackChunkName: "v-11f76136" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/简历.html.vue")),
+  // path: /personal/ProjectDone/%E7%BD%91%E5%95%86%E6%98%9F%E7%81%AB.html
+  "v-1739deac": defineAsyncComponent(() => import(/* webpackChunkName: "v-1739deac" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/personal/ProjectDone/网商星火.html.vue")),
   // path: /zh/css/Grid%E5%B8%83%E5%B1%80.html
   "v-1008f34a": defineAsyncComponent(() => import(/* webpackChunkName: "v-1008f34a" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/css/Grid布局.html.vue")),
   // path: /zh/css/css%E6%96%B0%E8%8A%B1%E6%A0%B7.html
@@ -61,18 +67,6 @@ export const pagesComponents = {
   "v-0f5d52d2": defineAsyncComponent(() => import(/* webpackChunkName: "v-0f5d52d2" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/js/深拷贝与浅拷贝.html.vue")),
   // path: /zh/js/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E8%B8%A9%E5%9D%91%E6%8C%87%E5%8D%97.html
   "v-4eba84f9": defineAsyncComponent(() => import(/* webpackChunkName: "v-4eba84f9" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/js/移动端踩坑指南.html.vue")),
-  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html
-  "v-0cd900eb": defineAsyncComponent(() => import(/* webpackChunkName: "v-0cd900eb" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/Day.js.html.vue")),
-  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html
-  "v-4108d75a": defineAsyncComponent(() => import(/* webpackChunkName: "v-4108d75a" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/Git.html.vue")),
-  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/excel%E8%A1%A8%E6%A0%BC%E7%94%9F%E6%88%90.html
-  "v-57fe1428": defineAsyncComponent(() => import(/* webpackChunkName: "v-57fe1428" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/excel表格生成.html.vue")),
-  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html
-  "v-03aa8ade": defineAsyncComponent(() => import(/* webpackChunkName: "v-03aa8ade" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/lodash.html.vue")),
-  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html
-  "v-15da3fbe": defineAsyncComponent(() => import(/* webpackChunkName: "v-15da3fbe" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/spark-md5.html.vue")),
-  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html
-  "v-45bc921c": defineAsyncComponent(() => import(/* webpackChunkName: "v-45bc921c" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/包管理器.html.vue")),
   // path: /zh/react/Hooks%E5%87%BD%E6%95%B0%E7%BB%84%E4%BB%B6.html
   "v-4727e05c": defineAsyncComponent(() => import(/* webpackChunkName: "v-4727e05c" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/react/Hooks函数组件.html.vue")),
   // path: /zh/react/class%E7%B1%BB%E7%BB%84%E4%BB%B6.html
@@ -91,6 +85,18 @@ export const pagesComponents = {
   "v-0b8632af": defineAsyncComponent(() => import(/* webpackChunkName: "v-0b8632af" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/react/自定义Hooks.html.vue")),
   // path: /zh/react/%E9%A2%9D%E5%A4%96%E7%AC%94%E8%AE%B0.html
   "v-36aebfc3": defineAsyncComponent(() => import(/* webpackChunkName: "v-36aebfc3" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/react/额外笔记.html.vue")),
+  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Day.js.html
+  "v-0cd900eb": defineAsyncComponent(() => import(/* webpackChunkName: "v-0cd900eb" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/Day.js.html.vue")),
+  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/Git.html
+  "v-4108d75a": defineAsyncComponent(() => import(/* webpackChunkName: "v-4108d75a" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/Git.html.vue")),
+  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/excel%E8%A1%A8%E6%A0%BC%E7%94%9F%E6%88%90.html
+  "v-57fe1428": defineAsyncComponent(() => import(/* webpackChunkName: "v-57fe1428" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/excel表格生成.html.vue")),
+  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/lodash.html
+  "v-03aa8ade": defineAsyncComponent(() => import(/* webpackChunkName: "v-03aa8ade" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/lodash.html.vue")),
+  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/spark-md5.html
+  "v-15da3fbe": defineAsyncComponent(() => import(/* webpackChunkName: "v-15da3fbe" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/spark-md5.html.vue")),
+  // path: /zh/%E5%89%8D%E7%AB%AF%E5%B7%A5%E5%85%B7/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8.html
+  "v-45bc921c": defineAsyncComponent(() => import(/* webpackChunkName: "v-45bc921c" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/前端工具/包管理器.html.vue")),
   // path: /zh/%E9%9D%A2%E8%AF%95%E9%A2%98/css%E9%9D%A2%E8%AF%95.html
   "v-18829fa6": defineAsyncComponent(() => import(/* webpackChunkName: "v-18829fa6" */"/Users/wangchenbing/Desktop/My_blogs/src/.vuepress/.temp/pages/zh/面试题/css面试.html.vue")),
   // path: /zh/%E9%9D%A2%E8%AF%95%E9%A2%98/js%E5%8E%9F%E7%94%9F.html
