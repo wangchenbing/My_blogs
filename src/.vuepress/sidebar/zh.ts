@@ -29,13 +29,8 @@ export const zhSidebar = sidebar({
         '正则表达式'
       ],
     },
-    {
-      text: "css",
-      icon: 'css',
-      collapsable: true,
-      prefix: "css/",
-      children: ['css新花样', 'flex布局', "Grid布局", "slides"],
-    },
+    { text: "git", link: "/zh/git.md", icon: "git" },
+
     {
       text: "react",
       icon: 'react',
@@ -73,7 +68,13 @@ export const zhSidebar = sidebar({
         "Git",],
     },
     { text: "npm", link: "/zh/npm.md", icon: "npm" },
-    { text: "git", link: "/zh/git.md", icon: "git" },
+    {
+      text: "css",
+      icon: 'css',
+      collapsable: true,
+      prefix: "css/",
+      children: ['css新花样', 'flex布局', "Grid布局", "slides"],
+    },
     { text: "学习与书籍", link: "/zh/学习与书籍.md", icon: "editor" },
     { text: "各类密码", link: "/zh/各类密码.md", icon: "editor" },
   ],
